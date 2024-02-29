@@ -1,7 +1,7 @@
 ---
 title: "Rick Hein"
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/hoodie.webp"
+image: "images/team/rick.jpg"
 jobtitle: "Founder"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
