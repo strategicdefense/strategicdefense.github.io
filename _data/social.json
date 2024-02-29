@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/strategicdefense",
+    "image": "images/social/github.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:hello@strategicdefense.co ",
+      "image": "images/social/email.svg"
+  },
+
+
+]

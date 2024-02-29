@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Offense for your Defense",
+    "description": "Excercise, just like your doctor said.",
+    "image": {
+      "url": "images/features/shield_bw.webp",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "World-Class Talent",
+    "description": "We hire, train and develop the best on the planet.",
+    "image": {
+      "url": "images/features/1st_bw.webp",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Just Like the Bad Guys",
+    "description": "We get hands-on, because thats what you're up against.",
+    "image": {
+      "url": "images/features/hoodie_bw.webp",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
