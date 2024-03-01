@@ -1,5 +1,6 @@
 ---
-title: About
+title: "Strategic Defense Corporation - About"
+image: "images/illustrations/colorfulcomputer.webp"
 layout: page
 description: About
 bodyClass: page-about

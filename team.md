@@ -1,6 +1,7 @@
 ---
 title: "Strategic Defense Corporation - Team"
 layout: teams
+image: "images/illustrations/colorfulcomputer.webp"
 description: "More cybersecurity experience than you can shake a stick at."
 permalink: "/team/"
 intro_image_absolute: true
