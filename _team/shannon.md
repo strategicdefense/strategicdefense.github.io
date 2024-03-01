@@ -8,7 +8,8 @@ promoted: true
 weight: 2
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-<!--more-->
 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+Shannon is a seasoned leader in the cybersecurity industry bringing with her over two decades in the tech sector.  
+<!--more-->
+With a strong focus on helping businesses preserve brand integrity, she is dedicated to assisting organizations establish robust security practices with the goal of uninterrupted revenue generation or business operations stemming from cybersecurity incidents.  Shannon’s extensive expertise stems from renowned companies such as AMD, Trustwave, Secureworks, IBM, Kudelski Security and as the Founder of Ryze Security.
+
