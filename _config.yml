@@ -6,6 +6,12 @@ url: 'https://strategicdefense.co'
 description: 'Top-of-the-heap, goal-based penetration testing and other offensive security services.'
 image: '/images/logo/lock-mobi.png'
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/logo/lock-mobi.png
+
 logo:
   mobile: "images/logo/lock-mobi.png"
   mobile_height: "32px"
