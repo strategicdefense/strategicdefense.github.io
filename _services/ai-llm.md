@@ -3,7 +3,7 @@ title: "AI/LLM"
 date: 2018-11-18T12:33:46+10:00
 weight: 8
 ---
-There are two main classes of AI/LLM testing; AI intergration testing, and AI Red Teaming. 
+Get a handle on AI/LLM with intergration testing and Red Teaming. 
 
 
 #AI and Large Language Model Testing

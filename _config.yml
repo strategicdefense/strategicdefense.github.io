@@ -1,6 +1,8 @@
 baseurl: '/'
 permalink: pretty
 title: 'Strategic Defense Corporation'
+tagline: 'The Best Defense is a Good Offense'
+url: 'https://strategicdefense.co'
 
 logo:
   mobile: "images/logo/lock-mobi.png"
@@ -37,7 +39,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
-
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
