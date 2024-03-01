@@ -1,7 +1,7 @@
 ---
-title: Services
+title: "Strategic Defense Corporation - Services"
 layout: services
-description: Services
+description: "Top-of-the-heap, goal-based penetration testing and offensive security services"
 intro_image: "images/illustrations/hair.webp"
 intro_image_absolute: false
 intro_image_hide_on_mobile: true

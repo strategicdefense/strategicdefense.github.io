@@ -1,5 +1,5 @@
 ---
-title: Strategic Defense Corporation
+title: "Strategic Defense Corporation - Team"
 layout: teams
 description: "More cybersecurity experience than you can shake a stick at."
 permalink: "/team/"
