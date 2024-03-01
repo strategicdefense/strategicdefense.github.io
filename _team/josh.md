@@ -8,6 +8,8 @@ promoted: true
 weight: 2
 ---
 
-I've spent the past six years working in cybersecurity at a number of organizations. I've spent portions of that time doing manual network and wireless pentesting. I've also spent a few years as strategic advisor to companies large and small. More recently, I've worked to grow my own practice as a tester and advisor. I'm excited to be a part of Strategic Defense and am eager to partner with organizations to identify and help remediate security gaps. I am also proud to hold several certifications including my Project Management Professional, CompTIA Security+, and Offensive Security Wireless Professional.
+Josh has spent the past six years working in cybersecurity at a number of organizations. 
 <!--more-->
+He spent portions of that time doing manual network and wireless pentesting. He also spent a few years as strategic advisor to companies large and small. More recently, he's worked to grow his own practice as a tester and advisor. Josh is excited to be a part of Strategic Defense and am eager to partner with organizations to identify and help remediate security gaps. Josh is also proud to hold several certifications including Project Management Professional (PMP), CompTIA Security+, and Offensive Security Wireless Professional.
+
 
