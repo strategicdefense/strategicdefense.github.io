@@ -2,6 +2,7 @@
 title: Strategic Defense Corporation
 layout: home
 description: The best defense is a good offense.
+image: "images/illustrations/colorfulcomputer.webp"
 intro_image: "images/illustrations/colorfulcomputer.webp"
 intro_image_absolute: false
 intro_image_hide_on_mobile: true
