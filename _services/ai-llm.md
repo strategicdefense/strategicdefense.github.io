@@ -3,12 +3,12 @@ title: "AI/LLM"
 date: 2018-11-18T12:33:46+10:00
 weight: 8
 description: The best defense is a good offense.
-image: "images/illustrations/hair-llm.webp"
+image: "images/illustrations/llm-hair.webp"
 
 ---
 Get a handle on AI/LLM with intergration testing and Red Teaming. 
 
-![](/images/illustrations/hair-llm.webp)
+![hacking llm](/images/illustrations/llm-hair.webp)
 
 # AI and Large Language Model Testing
 ## Objective:
