@@ -9,6 +9,7 @@ intro_image: "images/illustrations/colorfulcomputer.webp"
 ---
 Get a handle on AI/LLM with intergration testing and Red Teaming. 
 
+![](images/illustrations/hair-llm.webp)
 
 # AI and Large Language Model Testing
 ## Objective:
