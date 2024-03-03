@@ -1,5 +1,5 @@
 ---
-title: "Strategic Defense Corporation - Contact"
+title: "Strategic Defense Corporation"
 image: "images/illustrations/colorfulcomputer.webp"
 layout: contact
 description: Contact
