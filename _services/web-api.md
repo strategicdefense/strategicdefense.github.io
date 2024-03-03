@@ -4,7 +4,7 @@ date: 2019-05-18T12:33:46+10:00
 weight: 1
 ---
 
-Elevate your API Security with OWASP-Guided penetration testing. 
+API security tests designed for any size endpoint. \ 
 
 # API Security Assessment
 ## Objective:

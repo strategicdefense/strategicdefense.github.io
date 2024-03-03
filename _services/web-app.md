@@ -4,7 +4,7 @@ date: 2019-05-18T12:33:46+10:00
 weight: 1
 ---
 
-Elevate your Application Security with OWASP-Guided penetration testing. 
+Application Security Testing, guided by OWASP and layered with manual testing. 
 
 # Web Application Penetration Testing
 ## Objective:
