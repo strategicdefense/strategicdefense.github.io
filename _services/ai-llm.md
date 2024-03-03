@@ -4,7 +4,6 @@ date: 2018-11-18T12:33:46+10:00
 weight: 8
 description: The best defense is a good offense.
 image: "images/illustrations/llm-hair.webp"
-
 ---
 Get a handle on AI/LLM with intergration testing and Red Teaming. 
 
@@ -19,7 +18,7 @@ The methodology encompasses a detailed examination of AI/LLM architectures, data
 
 Features/Methodology:
 
-- Data Security and Privacy: Evaluating the mechanisms for protecting sensitive data used in training and inference processes, including data encryption, access controls, and compliance with data protection regulations.
+- **Data Security and Privacy:** Evaluating the mechanisms for protecting sensitive data used in training and inference processes, including data encryption, access controls, and compliance with data protection regulations.
 
 - Model Robustness and Integrity: Testing for vulnerabilities to adversarial attacks that aim to manipulate model outputs or compromise model integrity, including input manipulation, model poisoning, and evasion techniques.
 
