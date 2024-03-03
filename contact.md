@@ -5,3 +5,6 @@ layout: contact
 description: Contact
 ---
 
+
+{% include contact-form.html %}
+
