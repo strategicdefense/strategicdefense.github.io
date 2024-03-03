@@ -20,15 +20,15 @@ Features/Methodology:
 
 - **Data Security and Privacy:** Evaluating the mechanisms for protecting sensitive data used in training and inference processes, including data encryption, access controls, and compliance with data protection regulations.
 
-- Model Robustness and Integrity: Testing for vulnerabilities to adversarial attacks that aim to manipulate model outputs or compromise model integrity, including input manipulation, model poisoning, and evasion techniques.
+- **Model Robustness and Integrity:** Testing for vulnerabilities to adversarial attacks that aim to manipulate model outputs or compromise model integrity, including input manipulation, model poisoning, and evasion techniques.
 
-- Authentication and Authorization: Assessing the security of interfaces and APIs through which AI/LLM systems are accessed, ensuring that they implement strong authentication and authorization controls to prevent unauthorized access.
+- **Authentication and Authorization:** Assessing the security of interfaces and APIs through which AI/LLM systems are accessed, ensuring that they implement strong authentication and authorization controls to prevent unauthorized access.
 
-- Auditability and Transparency: Reviewing the ability to audit AI/LLM operations and decisions, ensuring transparency and accountability in AI/LLM outputs, and facilitating the detection of biases or unethical use.
+- **Auditability and Transparency:** Reviewing the ability to audit AI/LLM operations and decisions, ensuring transparency and accountability in AI/LLM outputs, and facilitating the detection of biases or unethical use.
 
-- Deployment and Operational Security: Examining the security of the environments where AI/LLM systems are deployed, including cloud platforms, on-premise servers, and edge devices, to protect against unauthorized access and ensure the availability of AI services.
+- **Deployment and Operational Security:** Examining the security of the environments where AI/LLM systems are deployed, including cloud platforms, on-premise servers, and edge devices, to protect against unauthorized access and ensure the availability of AI services.
 
-- Ethical Use and Bias Mitigation: Testing for biases in AI/LLM outputs and decision-making processes, ensuring that models are designed and used ethically, and that measures are in place to mitigate bias and promote fairness.
+- **Ethical Use and Bias Mitigation:** Testing for biases in AI/LLM outputs and decision-making processes, ensuring that models are designed and used ethically, and that measures are in place to mitigate bias and promote fairness.
 
 This methodology provides a comprehensive framework for securing AI and LLM systems, addressing the unique challenges and risks associated with these technologies. By identifying vulnerabilities and implementing robust security measures, organizations can enhance the trustworthiness and reliability of their AI/LLM solutions.
 
