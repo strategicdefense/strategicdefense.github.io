@@ -5,6 +5,7 @@ layout: contact
 description: Contact
 ---
 
+Drop us a note and lets chat. 
 
 {% include contact-form.html %}
 
