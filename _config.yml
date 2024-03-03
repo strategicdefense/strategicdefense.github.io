@@ -6,7 +6,7 @@ url: 'https://strategicdefense.co'
 
 
 logo:
-  mobile: "images/logo/lock-mobi.png"
+  mobile: "images/favicon.png"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo.png"
