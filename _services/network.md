@@ -4,7 +4,7 @@ date: 2018-11-18T12:33:46+10:00
 weight: 2
 ---
 
-External or Internal (or a blend of both). Add on Phishing or Physical. It's a foundational building block of a good security testing program.
+External or Internal (or a blend of both). Add on [Phishing](/services/phishing) or [Physical](/services/physical). It's a foundational building block of a good security testing program.
 
 # External Penetration Tests 
 ## Objective:

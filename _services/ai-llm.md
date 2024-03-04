@@ -5,7 +5,7 @@ weight: 8
 description: The best defense is a good offense.
 image: "images/illustrations/llm-hair.webp"
 ---
-Get a handle on AI/LLM with intergration testing and Red Teaming. 
+Get a handle on AI/LLM with intergration testing, prompt engineering and Red Teaming for LLM-specific threats. 
 
 ![hacking llm](/images/illustrations/llm-hair.webp)
 
