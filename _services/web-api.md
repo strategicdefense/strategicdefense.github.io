@@ -4,7 +4,7 @@ date: 2019-05-18T12:33:46+10:00
 weight: 1
 ---
 
-API security tests designed for any size endpoint.
+Comprehensive API security testing, designed for any size endpoint, powered by OWASP Top 10. 
 
 # API Security Assessment
 ## Objective:
