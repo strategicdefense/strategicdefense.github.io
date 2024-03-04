@@ -17,15 +17,15 @@ The methodology involves a systematic approach to disassembling, analyzing, and 
 
 ## Features:
 
-- Physical Device Analysis: Conducting a detailed examination of the device's physical security mechanisms, including tamper resistance features, to assess their effectiveness in preventing unauthorized access or modification.
+- **Physical Device Analysis:** Conducting a detailed examination of the device's physical security mechanisms, including tamper resistance features, to assess their effectiveness in preventing unauthorized access or modification.
 
-- Firmware and Embedded Software Analysis: Extracting and analyzing the firmware and embedded software for vulnerabilities, such as insecure coding practices, hardcoded credentials, or backdoors.
+- **Firmware and Embedded Software Analysis:** Extracting and analyzing the firmware and embedded software for vulnerabilities, such as insecure coding practices, hardcoded credentials, or backdoors.
 
-- Communication Protocol Analysis: Evaluating the security of communication protocols used by the device for internal communications and interactions with external entities, focusing on encryption and authentication mechanisms. This can include local services (a HTTP management portal, for example). 
+- **Communication Protocol Analysis:** Evaluating the security of communication protocols used by the device for internal communications and interactions with external entities, focusing on encryption and authentication mechanisms. This can include local services (a HTTP management portal, for example). 
 
-- Data Storage and Encryption: Assessing how sensitive data is stored on the device, including the implementation of encryption and access controls to protect data at rest.
+- **Data Storage and Encryption:** Assessing how sensitive data is stored on the device, including the implementation of encryption and access controls to protect data at rest.
 
-- OT, IoT, and Smart Home Device Specifics: Tailoring the testing approach to address the unique security challenges and threat models associated with OT systems, IoT devices, and smart home technologies, including the potential for physical safety risks.
+- **OT, IoT, and Smart Home Device Specifics:** Tailoring the testing approach to address the unique security challenges and threat models associated with OT systems, IoT devices, and smart home technologies, including the potential for physical safety risks.
 
 This methodology provides a comprehensive framework for assessing the security of hardware devices, enabling organizations to identify and mitigate vulnerabilities that could be exploited by attackers. By understanding the risks associated with hardware devices, organizations can enhance the security of their OT, IoT, and smart home devices, protecting against unauthorized access and ensuring the safety and privacy of users.
 

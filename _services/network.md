@@ -13,13 +13,10 @@ External Penetration Tests are designed to evaluate the security posture of an o
 ## Methodology:
 The assessment process includes a comprehensive examination of all internet-facing assets, including web servers, email servers, DNS servers, and firewalls. The methodology integrates a mix of automated scanning tools and manual testing techniques to uncover a range of security issues, such as misconfigurations, outdated software, weak encryption methods, and other vulnerabilities in exposed services. Main features include:
 
- - Open Source Intelligence (OSINT): Gathering publicly available information to aid in identifying potential attack vectors and understanding the organization's external digital footprint.
-
- - Network Scanning and Analysis: Systematic scanning of all external IP addresses and domain names to map out accessible services and identify potential vulnerabilities.
-
- - Exploitation: Attempting to exploit identified vulnerabilities to assess the potential for unauthorized access or information exfiltration, simulating the actions of real-world attackers.
-
- - Lateral Movement: Evaluating the possibility of moving across the network to access additional resources or sensitive information, demonstrating how an attacker could extend their reach within the compromised infrastructure.
+- **Open Source Intelligence (OSINT):** Gathering publicly available information to aid in identifying potential attack vectors and understanding the organization's external digital footprint.
+- **Network Scanning and Analysis:** Systematic scanning of all external IP addresses and domain names to map out accessible services and identify potential vulnerabilities.
+- **Exploitation:** Attempting to exploit identified vulnerabilities to assess the potential for unauthorized access or information exfiltration, simulating the actions of real-world attackers.
+- **Lateral Movement:** Evaluating the possibility of moving across the network to access additional resources or sensitive information, demonstrating how an attacker could extend their reach within the compromised infrastructure.
 
 Goal-Based Penetration Testing focuses testing based on specific objectives, such as accessing sensitive data, compromising critical systems, or evaluating the effectiveness of security controls and incident response mechanisms.
 
@@ -37,21 +34,15 @@ Internal Penetration Testing targets an organization's internal network and syst
 ## Methodology:
 This testing methodology focuses on the internal environment, including servers, workstations, network devices, and applications accessible within the network. It employs a combination of automated scanning tools and manual testing techniques to comprehensively assess the security posture of internal systems.
 
-## Features/Methodology:
+## Features:
 
- - Network Scanning and Enumeration: Systematic identification and mapping of network assets, services, and vulnerabilities within the internal network to understand the network's structure and potential attack vectors.
-
- - Credential Testing and Privilege Escalation: Examination of authentication mechanisms, password policies, and practices for managing credentials. Testing includes attempts to escalate privileges to gain higher levels of access.
-
- - Vulnerability Exploitation: Identifying and exploiting vulnerabilities in software, configurations, and security controls to understand the potential for unauthorized access or data exfiltration.
-
- - Lateral Movement: Assessing the ability to move laterally across the network to access additional systems and data, simulating how an attacker could extend their reach within the network after gaining initial access.
-
- - Access Controls and Segmentation: Evaluating the effectiveness of network segmentation and access controls in limiting movement and access to sensitive areas of the network.
-
- - Sensitive Data Exposure: Assessing the protection mechanisms for sensitive data to determine if such data can be accessed or exfiltrated by unauthorized users.
-
- - Incident Detection and Response: Testing the organization's ability to detect and respond to internal security incidents, including the effectiveness of monitoring, logging, and incident response processes.
+- **Network Scanning and Enumeration:** Systematic identification and mapping of network assets, services, and vulnerabilities within the internal network to understand the network's structure and potential attack vectors.
+- **Credential Testing and Privilege Escalation:** Examination of authentication mechanisms, password policies, and practices for managing credentials. Testing includes attempts to escalate privileges to gain higher levels of access.
+- **Vulnerability Exploitation:** Identifying and exploiting vulnerabilities in software, configurations, and security controls to understand the potential for unauthorized access or data exfiltration.
+- **Lateral Movement:** Assessing the ability to move laterally across the network to access additional systems and data, simulating how an attacker could extend their reach within the network after gaining initial access.
+- **Access Controls and Segmentation:** Evaluating the effectiveness of network segmentation and access controls in limiting movement and access to sensitive areas of the network.
+- **Sensitive Data Exposure:** Assessing the protection mechanisms for sensitive data to determine if such data can be accessed or exfiltrated by unauthorized users.
+- **Incident Detection and Response:** Testing the organization's ability to detect and respond to internal security incidents, including the effectiveness of monitoring, logging, and incident response processes.
 
 This methodology aims to emulate real-world scenarios where an attacker has internal access, providing a realistic assessment of the organization's internal security posture. It goes beyond simple vulnerability scanning by incorporating manual testing and exploitation techniques to understand the real-world implications of identified vulnerabilities.
 

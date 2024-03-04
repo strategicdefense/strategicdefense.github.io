@@ -4,7 +4,7 @@ date: 2019-05-18T12:33:46+10:00
 weight: 1
 ---
 
-API security tests designed for any size endpoint. \ 
+API security tests designed for any size endpoint.
 
 # API Security Assessment
 ## Objective:
@@ -13,7 +13,7 @@ Web API Penetration Testing is specifically aimed at evaluating the security of 
 ## Scope and Methodology:
 The assessment process scrutinizes the security mechanisms of web APIs across various stages, from initial access and authentication to data handling and output. It involves a comprehensive analysis of both RESTful APIs and SOAP-based services, covering a wide range of potential security issues.
 
-## Features/Methodology:
+## Features:
 
 - **Authentication and Authorization Testing:** Evaluating mechanisms for API authentication and authorization to ensure that they cannot be bypassed or exploited, securing access to sensitive functions and data.
 

@@ -8,6 +8,7 @@ Cloud testing options for outside-in, inside-out, or any other type of cloud mod
 
 # Cloud Penetration Test
 ## Objective:
+
 Cloud Penetration Testing is designed to assess the security of cloud-based infrastructure and services. The aim is to identify vulnerabilities within cloud environments that could be exploited by external or internal threats. While Strategic Defense offers more in-depth testing options against individual cloud features (API testing, application testing, network testing, etc), this test serves to efficiently blend portions of methodology from each. 
 
 ## Methodology:

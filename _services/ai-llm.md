@@ -16,7 +16,7 @@ AI and Large Language Model (LLM) Security Testing is designed to identify vulne
 ## Scope and Methodology:
 The methodology encompasses a detailed examination of AI/LLM architectures, data pipelines, training processes, and deployment environments. It involves assessing the security of data used for training and inference, the robustness of models against adversarial attacks, and the safeguards in place to prevent misuse or unethical use of AI technologies.
 
-Features/Methodology:
+## Features:
 
 - **Data Security and Privacy:** Evaluating the mechanisms for protecting sensitive data used in training and inference processes, including data encryption, access controls, and compliance with data protection regulations.
 
