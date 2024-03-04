@@ -9,3 +9,5 @@ weight: 2
 ---
 
 Lorem ipsum dolor sit amet.
+
+![zerodave](/images/team/hoodie.webp)
