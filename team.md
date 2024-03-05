@@ -1,5 +1,5 @@
 ---
-title: "Strategic Defense Corporation - Team"
+title: "Team"
 layout: teams
 image: "images/illustrations/colorfulcomputer.webp"
 description: "More cybersecurity experience than you can shake a stick at."

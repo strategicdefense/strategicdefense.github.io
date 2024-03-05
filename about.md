@@ -1,5 +1,5 @@
 ---
-title: "Strategic Defense Corporation - About"
+title: "Mission"
 image: "images/illustrations/colorfulcomputer.webp"
 layout: page
 description: About
