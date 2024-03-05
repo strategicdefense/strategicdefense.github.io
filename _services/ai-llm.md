@@ -39,3 +39,4 @@ Scoping for AI/LLM security testing involves defining the specific components of
 The scale and duration of an AI/LLM security testing engagement can vary based on the complexity of the AI/LLM system, the breadth of components to be tested, and the depth of the testing required. Engagements can range from targeted assessments of specific models or functionalities to comprehensive evaluations of entire AI/LLM ecosystems.
 
 > Note: Custom scoping is often necessary for AI/LLM security testing to ensure that the testing approach is tailored to the unique aspects of the AI/LLM system, aligns with the organization's security objectives, and effectively addresses the potential risks and vulnerabilities.
+

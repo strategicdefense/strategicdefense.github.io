@@ -4,8 +4,10 @@ date: 2018-11-18T12:33:46+10:00
 weight: 2
 ---
 
-External or Internal (or a blend of both). Add on [Phishing](/services/phishing) or [Physical](/services/physical). It's a foundational building block of a good security testing program.
+[External](#external) testing of your Internet-facing perimeter, or [Internal](#internal) testing to simulate an insider threat. Blend both, or add on [Phishing](/services/phishing) or [Physical](/services/physical) for a well-rounded engagement.
 
+
+<!-- TOC --><a name="external"></a>
 # External Penetration Tests 
 ## Objective:
 External Penetration Tests are designed to evaluate the security posture of an organization's external network assets, such as websites, web applications, and network interfaces, to identify vulnerabilities that could be exploited by external threats. The aim is to assess the resilience of the organization’s public-facing infrastructure against internet-based attacks, ensuring that security measures are capable of preventing unauthorized access or data compromise.
@@ -27,6 +29,7 @@ Scoping requires the identification of all external IP addresses and domain name
 
 Targets refers to live systems on the external perimeter exposing at least one port or service. If you provide a /24 for testing, and only 30 systems are found to be live and hosting at least one port or service, the scope should be 30, not 255. 
 
+<!-- TOC --><a name="internal"></a>
 # Internal Penetration Tests 
 ## Objective:
 Internal Penetration Testing targets an organization's internal network and systems to identify vulnerabilities that could be exploited by insiders or attackers who have breached the network perimeter. The primary aim is to evaluate the security of internal infrastructure, identify weaknesses in internal controls, and assess the potential impact of insider threats, such as employees, contractors, or compromised accounts.
