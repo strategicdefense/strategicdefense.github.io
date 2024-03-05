@@ -23,7 +23,7 @@ Not here! We've structured our entity so that the focus is on quality without co
 - A team that loves doing right by our customers, just as much as we love finding ridiculous critical findings that your last pentest shop totally missed. 
 
 
-## Offense for your Defense
+# Offense for your Defense
 
 We love the game of offense versus defense, and it can provide such good outcomes in information security. Each side strengthening, growing, and helping the other get better over time. It takes time, and it takes willingness to build relationships. We love the saying:
 
