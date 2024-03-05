@@ -9,4 +9,4 @@ weight: 2
 ---
 
 
-![zerodave](/images/team/hoodie.webp)
+
