@@ -4,6 +4,10 @@
       "link": "mailto:hello@strategicdefense.co ",
       "image": "images/social/email.svg"
   },
-
+  {
+      "name": "Linkedin",
+      "link": "http://linkedin.com/company/strategic-defense",
+      "image": "images/social/linkedin.png"
+  },
 
 ]
