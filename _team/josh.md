@@ -3,7 +3,7 @@ title: "Josh Huckaby"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/huck.png"
 jobtitle: "Founder"
-#linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://linkedin.com/in/joshuahuckaby1987"
 promoted: true
 weight: 2
 ---
