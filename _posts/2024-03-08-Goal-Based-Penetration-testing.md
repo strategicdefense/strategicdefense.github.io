@@ -4,17 +4,18 @@ description: The best defense is a good offense.
 layout: post
 title: Goal Based Penetration Testing
 author: Staff
-tags: "penetration testing:
+tags: "penetration testing"
 ---
 
-Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization's real-world risk.  It specifically emulates modern threat actors that use Tactics, Techniques, and Procedures (TTPs) that vulnerability scanners and automation simply can't find or re-create.  
+Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization's real-world risk.  It specifically emulates modern threat actors that use Tactics, Techniques, and Procedures (TTPs) that vulnerability scanners and automation simply can't find or re-create. 
+
 <!--more-->
 
 *How does it do that?*
 
-For every test we scope, we define a threat model. We gamplan about the different types of attackers you might face, review your overall network architecture, and then scope up a test that aligns with that threat model.  
+For every test we scope, we define a threat model. We gamplan about the different types of attackers you might face, review your overall network architecture, and then scope up a test that aligns with that threat model. 
 
-This up-front work means we set out to achieve the same goals during testing that a real-world threat actor might.  You get a live-fire view into what it would look like for a motivated, skilled attacker to test your perimeter, your cloud environment, your applications, your wireless networks, etc.  
+This up-front work means we set out to achieve the same goals during testing that a real-world threat actor might.  You get a live-fire view into what it would look like for a motivated, skilled attacker to test your perimeter, your cloud environment, your applications, your wireless networks, etc. 
 
 Mix that with the best security talent on the planet, add in some methodology we’ve drafted after decades of delivering thousands of penetration tests, and you get top-of-the-heap adversarial testing that helps you answer the big questions: 
 

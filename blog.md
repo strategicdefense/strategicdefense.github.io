@@ -2,6 +2,8 @@
 layout: page
 title: Blog
 permalink: /blog/
+description: The best defense is a good offense.
+image: "images/illustrations/colorfulcomputer.webp"
 ---
 
 
