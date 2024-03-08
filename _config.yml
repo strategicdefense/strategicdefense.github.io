@@ -1,5 +1,4 @@
 baseurl: '/'
-permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 title: 'Strategic Defense Corporation'
 tagline: 'The Best Defense is a Good Offense'
 url: 'https://strategicdefense.co'
