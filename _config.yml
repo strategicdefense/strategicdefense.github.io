@@ -3,7 +3,7 @@ permalink: pretty
 title: 'Strategic Defense Corporation'
 tagline: 'The Best Defense is a Good Offense'
 url: 'https://strategicdefense.co'
-
+excerpt_separator: <!--more-->
 
 logo:
   mobile: "/images/favicon-big.png"
@@ -13,7 +13,7 @@ logo:
   desktop_height: "32px"
   desktop_width: "200px"
 
-home: 
+home:
   limit_services: 6
 
 collections:
@@ -22,6 +22,9 @@ collections:
     sort_by: weight
   team:
     output: true
+  posts:
+    output: true
+    permalink: /blog/:name
 
 defaults:
   - scope:
