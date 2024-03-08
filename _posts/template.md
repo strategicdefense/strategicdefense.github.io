@@ -1,4 +1,5 @@
 ---
+image: /images/sd_shield.png
 layout: post
 title: Goal Based Penetration Testing
 author: Staff
@@ -8,7 +9,7 @@ tags:
 Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization's real-world risk.  It specifically emulates modern threat actors that use Tactics, Techniques, and Procedures (TTPs) that vulnerability scanners and automation simply can't find or re-create.  
 <!--more-->
 
-_How does it do that? _
+*How does it do that?*
 
 For every test we scope, we define a threat model. We gamplan about the different types of attackers you might face, review your overall network architecture, and then scope up a test that aligns with that threat model.  
 
@@ -16,7 +17,7 @@ This up-front work means we set out to achieve the same goals during testing tha
 
 Mix that with the best security talent on the planet, add in some methodology we’ve drafted after decades of delivering thousands of penetration tests, and you get top-of-the-heap adversarial testing that helps you answer the big questions: 
 
-Could a threat actor breach my environment, and would my team be able to detect them once they are in?  
+> Could a threat actor breach my environment, and would my team be able to detect them once they are in?  
 
 Thats the whole point in this type of testing; emulate what the real bad guys are doing, so you get the best preparation to beat them. Find the critical flaws in your environment before they do. Exercise your blue team so they are in-shape for potential events in the future. Test your security stack to spot the gaps beforehand. 
 

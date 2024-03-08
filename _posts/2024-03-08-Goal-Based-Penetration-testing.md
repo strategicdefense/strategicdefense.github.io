@@ -1,9 +1,10 @@
 ---
 image: /images/sd_shield.png
+description: The best defense is a good offense.
 layout: post
 title: Goal Based Penetration Testing
 author: Staff
-tags: 
+tags: "penetration testing:
 ---
 
 Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization's real-world risk.  It specifically emulates modern threat actors that use Tactics, Techniques, and Procedures (TTPs) that vulnerability scanners and automation simply can't find or re-create.  
