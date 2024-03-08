@@ -1,8 +1,9 @@
 baseurl: '/'
+permalink: pretty
 title: 'Strategic Defense Corporation'
 tagline: 'The Best Defense is a Good Offense'
 url: 'https://strategicdefense.co'
-excerpt_separator: <!--more-->
+
 
 logo:
   mobile: "/images/favicon-big.png"
