@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Mission</title>
+  <title>Strategic Defense Corporation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon.png">
   <!-- Google Fonts CDN -->
@@ -14,12 +14,12 @@
   <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
   <link href="/assets/css/style.css" rel="stylesheet">
   
-  <meta name="description" content="About" />
-  <meta property="og:title" content="Mission"/>
+  <meta name="description" content="Contact" />
+  <meta property="og:title" content="Strategic Defense Corporation"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=""/>
   <meta property="og:image" content="http://localhost:4000/images/illustrations/colorfulcomputer.webp"/>
-  <meta property="og:description" content="About"/>
+  <meta property="og:description" content="Contact"/>
   <meta name="twitter:card" content="summary"/>
   
   
@@ -36,7 +36,7 @@
   
 </head>
 
-<body class='page page-basic'>
+<body class='page page-contact'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
   <ul>
@@ -53,7 +53,7 @@
       <a href="/team/">Team</a>
     </li>
     
-    <li class="active">
+    <li class="">
       <a href="/about/">About</a>
     </li>
     
@@ -89,7 +89,7 @@
       <a href="/team/">Team</a>
     </li>
     
-    <li class="active">
+    <li class="">
       <a href="/about/">About</a>
     </li>
     
@@ -120,36 +120,130 @@
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
             <div class="service service-single">
-                <h1 class="title">Mission</h1>
-                <div class="content"><p>We’ve been around the block a time or two. We’ve designed, built, and scaled some of the most notable offensive security consulting practices around. We’ve seen it done <em>so</em> wrong, and we’re here to do it <em>so</em> right.</p>
+                <h1 class="title">Strategic Defense Corporation</h1>
+                <div class="content mt-4"><p>Drop us a note and lets chat.</p>
 
-<p>Wait, what’s so wrong?</p>
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkrbvza" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Name</label>
+    <input type="text" name="name" id="full-name" placeholder="" required="" />
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+  </fieldset>
+  <input type="submit" value="Submit" />
+</form>
+<style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 75%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
 
-<p>A while back, we were chatting with a friend of ours at a fairly well-known penetration testing consultancy, and he mentioned that while his utilization target (as a consultant) was well over 100%, the acceptable range went all the way up to 300%. Can you imagine the quality of work produced at 300% utilization?</p>
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
 
-<p>We can (we’ve seen the reports), and it’s not pretty. Corners cut, critical vulnerabilities missed, and its the end customer that pays the ultimate price; a false sense of security.</p>
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
 
-<p>Not here! We’ve structured our entity so that the focus is on quality without compromise. You get:</p>
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
 
-<ul>
-  <li>Well traveled and trained experts, operating nowhere near 300% utilization. They might even be the author of your favorite CVE.</li>
-  <li>Dialed-in methodology. There’s no scanner checklists here, we only deal in pure, goal-based offensive security testing that mimics the real-world bad guys.</li>
-  <li>Care taken to work though threat models that make sense to your organization.</li>
-  <li>Properly-scoped engagements that hit the sweet-spot in value.</li>
-  <li>A team that loves doing right by our customers, just as much as we love finding ridiculous critical findings that your last pentest shop totally missed.</li>
-</ul>
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
 
-<h1 id="offense-for-your-defense">Offense for your Defense</h1>
-
-<p>We love the game of offense versus defense, and it can provide such good outcomes in information security. Each side strengthening, growing, and helping the other get better over time. It takes time, and it takes willingness to build relationships. We love the saying:</p>
-
-<blockquote>
-  <p>The best defense is a good offense.</p>
-</blockquote>
-
-<p>It rings true in our industry as well. If you’ve got a group of defenders, the best thing you can do is give them a sparring partner.</p>
-
-<p>Give us a call, lets dance.</p>
 </div>
             </div>
         </div>
