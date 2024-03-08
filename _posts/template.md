@@ -3,22 +3,23 @@ image: /images/sd_shield.png
 layout: post
 title: Goal Based Penetration Testing
 author: Staff
-tags: 
+tags: "penetration testing"
 ---
 
-Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization's real-world risk.  It specifically emulates modern threat actors that use Tactics, Techniques, and Procedures (TTPs) that vulnerability scanners and automation simply can't find or re-create.  
+Above the cut text goes here
+
 <!--more-->
 
-*How does it do that?*
+Rest of your content goes here. 
 
-For every test we scope, we define a threat model. We gamplan about the different types of attackers you might face, review your overall network architecture, and then scope up a test that aligns with that threat model.  
+# You can do H1 headings like this
 
-This up-front work means we set out to achieve the same goals during testing that a real-world threat actor might.  You get a live-fire view into what it would look like for a motivated, skilled attacker to test your perimeter, your cloud environment, your applications, your wireless networks, etc.  
+## And H2 headings like this
 
-Mix that with the best security talent on the planet, add in some methodology we’ve drafted after decades of delivering thousands of penetration tests, and you get top-of-the-heap adversarial testing that helps you answer the big questions: 
+More body text wherever you want it. 
 
-> Could a threat actor breach my environment, and would my team be able to detect them once they are in?  
+You can do *italics* like that. 
 
-Thats the whole point in this type of testing; emulate what the real bad guys are doing, so you get the best preparation to beat them. Find the critical flaws in your environment before they do. Exercise your blue team so they are in-shape for potential events in the future. Test your security stack to spot the gaps beforehand. 
+> notes like this
 
-It’s penetration testing done right. 
+See [here](https://www.markdownguide.org/cheat-sheet/) for more.
