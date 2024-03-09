@@ -4,14 +4,15 @@ title: 'Strategic Defense Corporation'
 tagline: 'The Best Defense is a Good Offense'
 url: 'https://strategicdefense.co'
 excerpt_separator: <!--more-->
+logo: "/images/logo/logo-color-nobg.png"
 
-logo:
-  mobile: "/images/favicon-big.png"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "/images/logo/logo-color-nobg.png"
-  desktop_height: "32px"
-  desktop_width: "200px"
+#logo:
+#  mobile: "/images/favicon-big.png"
+#  mobile_height: "32px"
+#  mobile_width: "32px"
+#  desktop: "/images/logo/logo-color-nobg.png"
+#  desktop_height: "32px"
+#  desktop_width: "200px"
 
 home:
   limit_services: 6
