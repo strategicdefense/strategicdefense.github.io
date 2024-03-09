@@ -8,11 +8,7 @@ excerpt_separator: <!--more-->
 
 logo:
   mobile: "/images/logo/logo-color-nobg.png"
-  mobile_height: "32px"
-  mobile_width: "200px"
   desktop: "/images/logo/logo-color-nobg.png"
-  desktop_height: "32px"
-  desktop_width: "200px"
 
 home:
   limit_services: 6
