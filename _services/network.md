@@ -4,7 +4,7 @@ date: 2018-11-18T12:33:46+10:00
 weight: 2
 ---
 
-[External](#external) testing of your Internet-facing perimeter, or [Internal](#internal) testing to simulate an insider threat. Blend both, or add on [Phishing](/services/phishing) or [Physical](/services/physical) for a well-rounded engagement.
+[External](#external) testing of your Internet-facing perimeter, or [Internal](#internal) testing to simulate an insider threat or rogue employee. Blend both, or add on [Phishing](/services/phishing) for a well-rounded engagement.
 <!--more-->
 
 <!-- TOC --><a name="external"></a>

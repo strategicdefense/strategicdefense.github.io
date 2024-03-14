@@ -4,7 +4,7 @@ date: 2019-05-18T12:33:46+10:00
 weight: 1
 ---
 
-Application Security Testing, guided by OWASP and layered with manual testing. 
+Application Security Testing. Guided by OWASP, layered with manual testing, designed to find gremlins. 
 <!--more-->
 
 # Web Application Penetration Testing

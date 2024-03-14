@@ -4,7 +4,7 @@ date: 2019-04-18T12:33:46+10:00
 weight: 3
 ---
 
-Our expert wireless testers can crash your party from the far corner of your parking lot.
+Think hidden SSID's and WPA2-Enterprise are going to save you? Our expert wireless testers can crash your party from the far corner of your parking lot.
 <!--more-->
 
 # Wireless Penetration Testing

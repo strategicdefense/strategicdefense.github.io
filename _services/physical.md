@@ -4,7 +4,7 @@ date: 2019-03-28T15:14:54+10:00
 weight: 10
 ---
 
-Light as a feather, while we abuse your building security controls. 
+Tailgating, badge-cloning, lock-picking and more - all designed to abuse your building security controls. We go so hard; we have to laminate our Get Out of Jail Free cards. 
 <!--more-->
 
 # Physical Security Testing Methodology 
