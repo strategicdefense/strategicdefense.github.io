@@ -5,6 +5,7 @@ weight: 8
 ---
 
 Comprehensive API security testing, designed for any size endpoint, powered by OWASP Top 10. 
+<!--more-->
 
 # API Security Assessment
 ## Objective:

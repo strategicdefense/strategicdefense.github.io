@@ -6,7 +6,7 @@ description: The best defense is a good offense.
 image: "images/illustrations/llm-hair.webp"
 ---
 Get a handle on AI/LLM with intergration testing, prompt engineering and Red Teaming for LLM-specific threats. 
-
+<!--more-->
 ![hacking llm](/images/illustrations/llm-hair.webp)
 
 # AI and Large Language Model Testing

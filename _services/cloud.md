@@ -5,6 +5,7 @@ weight: 4
 ---
 
 Cloud testing options for outside-in, inside-out, or any other type of cloud model you can cook up.
+<!--more-->
 
 # Cloud Penetration Test
 ## Objective:

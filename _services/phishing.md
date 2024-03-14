@@ -5,6 +5,7 @@ weight: 9
 ---
 
 No matter the medium, our baitmasters catch phish. 
+<!--more-->
 
 # Phishing Simulation Test
 ## Objective:

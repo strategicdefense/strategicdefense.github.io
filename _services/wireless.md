@@ -5,6 +5,7 @@ weight: 3
 ---
 
 Our expert wireless testers can crash your party from the far corner of your parking lot.
+<!--more-->
 
 # Wireless Penetration Testing
 ## Objective:

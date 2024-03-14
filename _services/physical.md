@@ -5,6 +5,7 @@ weight: 10
 ---
 
 Light as a feather, while we abuse your building security controls. 
+<!--more-->
 
 # Physical Security Testing Methodology 
 

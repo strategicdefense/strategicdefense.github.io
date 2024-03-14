@@ -5,6 +5,7 @@ weight: 3
 ---
 
 We've got decades of experience hacking, breaching, and red-teaming organizations across the planet, and we're willing to share notes.
+<!--more-->
 
 ![hacking llm](/images/illustrations/cowboy.webp)
 

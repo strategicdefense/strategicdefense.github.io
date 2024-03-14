@@ -5,6 +5,7 @@ weight: 1
 ---
 
 Application Security Testing, guided by OWASP and layered with manual testing. 
+<!--more-->
 
 # Web Application Penetration Testing
 ## Objective:
