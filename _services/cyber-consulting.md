@@ -2,6 +2,7 @@
 title: "Cyber Consulting"
 date: 2019-03-28T15:14:54+10:00
 weight: 3
+image: "images/illustrations/cowboy.webp"
 ---
 
 We've got decades of experience hacking, breaching, and red-teaming organizations across the planet, and we're willing to share notes.
