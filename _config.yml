@@ -47,6 +47,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
 
 exclude:
   - Gemfile

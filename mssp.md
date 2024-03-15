@@ -1,0 +1,43 @@
+---
+title: Elevate Your Security Offerings with Strategic Defense
+layout: page
+description: The best defense is a good offense.
+image: "/images/illustrations/colorfulcomputer.webp"
+---
+## We :heart: MSSPs
+
+# Partner with Us for a One-Two Punch! 
+
+We understand the pivotal role Managed Security Service Providers (MSSPs, that's you!) play in shaping today’s cyber landscape. That's why we're committed to empowering you with top-of-the-heap, goal-based penetration testing services that round out your portfolio and set you apart from the competition. Here's why forming a partnership with us is your next strategic move: 
+
+## Exclusive Focus on Penetration Testing 
+
+You help guard the hen house, let us play fox and do what we do best: premium penetration testing focused on the real-world risk that matters. Our dedication means you're partnering with specialists who don't offer competing services but instead enhance your portfolio, allowing you to stand out in the market. Offense and Defense go together in a beautiful one-two punch of posture strengthening. 
+
+## Quality That Outshines the Rest 
+
+We pride ourselves on delivering more than just penetration testing; we provide a white-glove partnership that elates your customers and helps boost your service offerings. Not to mention, our team regularly gets Net Promoter Scores higher than Amazon and Netflix. Our methodology is rigorous (based on [PTES](http://www.pentest-standard.org/index.php/Main_Page)), our testers are the best in the industry, and our insights are real. This combination ensures that when you partner with us, you're offering a level of service that's unmatched by any other provider. Our commitment to excellence helps reinforce your reputation as a leader in cybersecurity. 
+
+## Boost Customer Retention
+
+Effective cybersecurity is not just about prevention; it's about building a culture of security. Our services do more than just uncover vulnerabilities; they educate and empower your clients towards better security practices. This not only helps in safeguarding their business but also in fostering trust in your services. By showing your commitment to their security through our technical, comprehensive reports and actionable insights, you're not just protecting their assets; you're investing in their peace of mind. This trust is invaluable for customer retention and loyalty. 
+
+## Boundless Opportunities 
+
+With a partnership with Strategic Defense, you can expect: 
+
+- Tailored Solutions: Every organization is unique, and so are their security needs. We work closely with you to deliver property scoped and threat modeled penetration tests that align with your clients' specific goals and requirements. 
+
+- Transparent Communication: We believe in building relationships based on trust and transparency. From initial discovery call to final report, we ensure you're informed and involved every step of the way. 
+
+- Continuous Improvement: Cyber threats evolve, and so do we. Our services are continually refined to combat the latest security challenges, ensuring your offerings remain on the cutting edge. 
+
+## Join Us on the Journey to Red vs Blue Nirvana 
+
+Your mission is to provide unparalleled managed security services. Ours is to ensure your offers include the best offensive security testing services available. Together, we can achieve greater security, build lasting client relationships, and lead the way in cybersecurity innovation. 
+
+## _Ready to Elevate Your Offerings?_
+
+[Contact Us](/contact) - Discover how a partnership with Strategic Defense can transform your service portfolio and help you secure a leadership position in the cybersecurity industry. 
+
+

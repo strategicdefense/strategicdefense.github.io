@@ -3,18 +3,42 @@ layout: default
 bodyClass: "page-blog"
 ---
 
+<style>
+    .title, .service-single .content h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+    }
+</style>
+
+
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">
-        {{ content | markdownify }}
+      <!-- Blog Posts Grid -->
+      <div class="col-12">
+        <div class="row">
+          {% for post in site.posts %}
+          <div class="col-sm-12 col-md-4 mb-4">
+            <div class="card">
+              {% if post.image %}
+              <img class="card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
+              <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                <a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
+      <!-- End of Blog Posts Grid -->
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
       </div>
       {% endif %}
     </div>
   </div>
-</div> 
-
+</div>
