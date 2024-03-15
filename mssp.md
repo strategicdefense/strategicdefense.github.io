@@ -8,7 +8,7 @@ image: "/images/illustrations/colorfulcomputer.webp"
 
 # Partner with Us for a One-Two Punch! 
 
-We understand the pivotal role Managed Security Service Providers (MSSPs, that's you!) play in shaping today’s cyber landscape. That's why we're committed to empowering you with top-of-the-heap, goal-based penetration testing services that round out your portfolio and set you apart from the competition. Here's why forming a partnership with us is your next strategic move: 
+We understand the pivotal role Managed Security Service Providers (MSSPs) play in shaping today’s cyber landscape. We know, because we've spend decades building high-performing penetration testing services specifically for the largest MSSPs around. That's why we're committed to empowering you with top-of-the-heap, goal-based penetration testing services that round out your portfolio and set you apart from the competition. From phishing, to appsec, to Ransomware Simulations, to Red Teaming and beyond; Here's why forming a partnership with us is your next strategic move: 
 
 ## Exclusive Focus on Penetration Testing 
 
