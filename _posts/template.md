@@ -3,7 +3,7 @@ image: /images/sd_shield.png
 layout: post
 title: Goal Based Penetration Testing
 author: Staff
-tags: "penetration testing"
+tags: ["Penetration Testing", "Goats"]
 ---
 
 Above the cut text goes here
@@ -21,5 +21,7 @@ More body text wherever you want it.
 You can do *italics* like that. 
 
 > notes like this
+
+Emojis, too! :ninja: :yum: :male_detective: :sheep: See [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 See [here](https://www.markdownguide.org/cheat-sheet/) for more.
