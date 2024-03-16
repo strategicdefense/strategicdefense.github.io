@@ -22,6 +22,13 @@ You can do *italics* like that.
 
 > notes like this
 
-Emojis, too! :ninja: :yum: :male_detective: :sheep: See [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+And code like this:
+
+```
+#!/bin/bash
+whoami
+```
+
+Emojis, too! :ninja: :yum: :male_detective: :sheep: See [here](https://github-emoji-picker.rickstaa.dev/)
 
 See [here](https://www.markdownguide.org/cheat-sheet/) for more.

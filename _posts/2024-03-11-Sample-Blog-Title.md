@@ -24,3 +24,4 @@ Mix that with the best security talent on the planet, add in some methodology we
 Thats the whole point in this type of testing; emulate what the real bad guys are doing, so you get the best preparation to beat them. Find the critical flaws in your environment before they do. Exercise your blue team so they are in-shape for potential events in the future. Test your security stack to spot the gaps beforehand. 
 
 It’s penetration testing done right. 
+

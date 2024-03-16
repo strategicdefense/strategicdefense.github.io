@@ -28,18 +28,18 @@ Effective cybersecurity is not just about prevention; it's about building a cult
 
 With a partnership with Strategic Defense, you can expect: 
 
-- Tailored Solutions: Every organization is unique, and so are their security needs. We work closely with you to deliver property scoped and threat modeled penetration tests that align with your clients' specific goals and requirements. 
+- **Tailored Solutions:** Every organization is unique, and so are their security needs. We work closely with you to deliver property scoped and threat modeled penetration tests that align with your clients' specific goals and requirements. 
 
-- Transparent Communication: We believe in building relationships based on trust and transparency. From initial discovery call to final report, we ensure you're informed and involved every step of the way. 
+- **Transparent Communication:** We believe in building relationships based on trust and transparency. From initial discovery call to final report, we ensure you're informed and involved every step of the way. 
 
-- Continuous Improvement: Cyber threats evolve, and so do we. Our services are continually refined to combat the latest security challenges, ensuring your offerings remain on the cutting edge. 
+- **Continuous Improvement:** Cyber threats evolve, and so do we. Our services are continually refined to emulate the latest attacker TTPs, ensuring our offerings remain on the cutting edge. 
 
 ## Join Us on the Journey to Red vs Blue Nirvana 
 
-Your mission is to provide unparalleled managed security services. Ours is to ensure your offers include the best offensive security testing services available. Together, we can achieve greater security, build lasting client relationships, and lead the way in cybersecurity innovation. 
+Your mission is to provide unparalleled managed security services. Ours is to ensure your offers include the best offensive security testing services available. Together, we can help your customers shrink their attack surface and level up everyone's detection game. 
 
 ## _Ready to Elevate Your Offerings?_
 
-[Contact Us](/contact) - Discover how a partnership with Strategic Defense can transform your service portfolio and help you secure a leadership position in the cybersecurity industry. 
+[Discover how a partnership with Strategic Defense](/contact) can transform your service portfolio and help you secure a leadership position in the cybersecurity industry. 
 
 
