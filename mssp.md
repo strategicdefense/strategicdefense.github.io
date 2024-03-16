@@ -2,9 +2,11 @@
 title: Elevate Your Security Offerings with Strategic Defense
 layout: page
 description: The best defense is a good offense.
-image: "/images/illustrations/colorfulcomputer.webp"
+image: "/images/illustrations/mssp.webp"
 ---
 ## We :heart: MSSPs
+
+<img src="/images/illustrations/mssp.webp" alt="mssp" width="600"/>
 
 # Partner with Us for a One-Two Punch! 
 

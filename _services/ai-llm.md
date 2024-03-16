@@ -7,7 +7,7 @@ image: "images/illustrations/llm-hair.webp"
 ---
 Get a handle on AI/LLM with intergration testing, prompt engineering and Red Teaming for LLM-specific threats. 
 <!--more-->
-![hacking llm](/images/illustrations/llm-hair.webp)
+<img src="/images/illustrations/llm-hair.webp" alt="hacking llm" width="600"/>
 
 # AI and Large Language Model Testing
 ## Objective:
