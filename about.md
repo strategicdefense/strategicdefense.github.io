@@ -12,6 +12,8 @@ Wait, what's so wrong?
 
 A while back, we were chatting with a friend of ours at a fairly well-known penetration testing consultancy, and he mentioned that while his utilization target (as a consultant) was well over 100%, the acceptable range went all the way up to 300%. Can you imagine the quality of work produced at 300% utilization?
 
+![overworked](/images/illustrations/overworked.webp){: width="500"}
+
 We can (we've seen the reports), and it's not pretty. Corners cut, critical vulnerabilities missed, and its the end customer that pays the ultimate price; a false sense of security. 
 
 Not here! We've structured our entity so that the focus is on quality without compromise. You get:
