@@ -1,5 +1,5 @@
 ---
-title: "Ready For the Next Level?"
+title: "Ready for the Next Level?"
 image: "images/illustrations/colorfulcomputer.webp"
 layout: contact
 description: Contact
