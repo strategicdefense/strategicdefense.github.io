@@ -1,9 +1,13 @@
 ---
 title: "Ready for the Next Level?"
-image: "images/illustrations/colorfulcomputer.webp"
+image: "images/illustrations/pigeon.webp"
 layout: contact
 description: Contact
+intro_image: "images/illustrations/pigeon.webp"
+intro_image_absolute: false
+intro_image_hide_on_mobile: true
 ---
+
 ## Drop us a note and let's chat. 
 <br>
 We can help:
