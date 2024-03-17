@@ -6,7 +6,7 @@ image: "/images/illustrations/mssp.webp"
 ---
 ## We :heart: MSSPs
 
-<img src="/images/illustrations/mssp.webp" alt="mssp" width="600"/>
+![mssp](/images/illustrations/mssp.webp){: width="600"}
 
 # Partner with Us for a One-Two Punch! 
 

@@ -9,7 +9,7 @@ image: "images/illustrations/cowboy.webp"
 We've got decades of experience hacking, breaching, and red-teaming organizations across the planet, and we're willing to share notes.
 <!--more-->
 
-![hacking llm](/images/illustrations/cowboy.webp)
+![cowboy hat](/images/illustrations/cowboy.webp){: width="600"}
 
 # Strategic Defense Cyber Consulting
 
