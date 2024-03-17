@@ -1,7 +1,7 @@
 ---
 title: Strategic Defense Corporation
 layout: home
-description: The best defense is a good offense.
+description: "Top-of-the-heap adversarial testing services to challenge assumptions, exercise your defenders, and identify your real-world risk. The best defense is a good offense."
 image: "images/illustrations/colorfulcomputer.webp"
 intro_image: "images/illustrations/colorfulcomputer.webp"
 intro_image_absolute: false
