@@ -18,6 +18,9 @@ main:
 footer:
   - name: "Contact"
     url: "/contact/"
+    weight: 3
+  - name: "VC"
+    url: "/vc/"
     weight: 2
   - name: "MSSP"
     url: "/mssp/"
