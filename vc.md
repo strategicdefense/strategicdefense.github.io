@@ -8,7 +8,7 @@ image: "/images/illustrations/vc.webp"
 
 ![mssp](/images/illustrations/vc.webp){: width="600"}
 
-> "Your firewall was born before I was, half your systems haven't seen a patch in a decade, and you've got more ransomware variants than coffee types in your break room - and for those reasons i'm out."
+> _"Your firewall was born before I was, half your systems haven't seen a patch in a decade, and you've got more ransomware variants than coffee types in your break room - and for those reasons i'm out."_
 
 # Secure Your Investments
 
