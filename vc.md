@@ -10,7 +10,7 @@ image: "/images/illustrations/vc.webp"
 
 > "Your firewall was born before I was, half your systems haven't seen a patch in a decade, and you've got more ransomware variants than coffee types in your break room - and for those reasons i'm out."
 
-# Secure Your Investments with Strategic Defense 
+# Secure Your Investments
 
 Cybersecurity is not just a necessity—it's a competitive advantage. At Strategic Defense, we specialize in providing premium, goal-based penetration testing services that emulate the bad guys. We help empower venture capital firms like yours to make informed, secure investment decisions. Here's why our services are indispensable for your investment strategy: 
 
@@ -28,7 +28,7 @@ Before you commit to investing in a startup, understanding its security posture 
 
 Cybersecurity issues can derail even the most promising startups, leading to financial loss, reputational damage, and regulatory penalties. By partnering with Strategic Defense, you ensure that the startups you invest in are not only financially viable but also secure from cyber threats. Our partnership provides: 
 
-- **Tailored Penetration Testing:** Each startup has unique security needs. We tailor our penetration testing services to match the specific context and technology stack of your potential investment, ensuring relevant and actionable insights. From Web3, to Hardware, to AI – we’ve tested it all.  
+- **Tailored Penetration Testing:** Each startup has unique security needs. We tailor our penetration testing services to match the specific context and technology stack of your potential investment, ensuring relevant and actionable insights. From [Next-Gen Web Apps](/services/web-app/), to [Hardware and IoT](/services/hardware/), to [AI and LLM](/services/ai-llm/) – we’ve tested it all. Looking for something a little more advisory? [We've got that, too](/services/cyber-consulting/).
 
 - **Actionable Intelligence:** Our reports go beyond a fluffy list of vulnerabilities; they provide actionable recommendations for improvement, allowing you to gauge the commitment of the startup's management to cybersecurity best practices. 
 
@@ -43,3 +43,4 @@ We are more than just a service provider; we are your partner in securing the fu
 [Learn how our premium penetration testing services](/contact) can become a key part of your venture capital firm's due diligence process, helping secure your investments against the evolving threat landscape. 
 
  
+
