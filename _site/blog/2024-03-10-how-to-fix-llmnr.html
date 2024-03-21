@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>How to Fix LLMNR Poisioning.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta name="description" content="The best defense is a good offense." />
+  <meta property="og:title" content="How to Fix LLMNR Poisioning."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  <meta property="og:image" content="http://localhost:4000/images/illustrations/wireless.webp"/>
+  <meta property="og:description" content="The best defense is a good offense."/>
+  <meta name="twitter:card" content="summary"/>
+  
+  
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KGPP8L3M5W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KGPP8L3M5W');
+</script>
+
+</head>
+
+<body class='page page-basic'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Services</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="200px" height="32px" alt="Strategic Defense Corporation" src="/images/logo/logo-color-nobg.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="32px" height="32px" alt="Strategic Defense Corporation" src="/images/favicon-big.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Services</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <style>
+    .title, .service-single .content h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+}
+    .post-image {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+}
+
+</style>
+
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">How to Fix LLMNR Poisioning.</h1>
+                <p>10 Mar 2024 - Staff</p>
+                
+                <img src="/images/illustrations/wireless.webp" alt="How to Fix LLMNR Poisioning." class="post-image"/>
+                
+                <div class="content"><h3 id="how-to-fix-llmnr-poisoning">How to fix LLMNR Poisoning</h3>
+
+<p>Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run Responder (https://github.com/lgandx/Responder). It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets <a href="https://attack.mitre.org/techniques/T1557/001/">its own special place</a> in Mitre.</p>
+
+<p>But wait, let’s back up…</p>
+
+<h3 id="understanding-llmnr-and-netbios">Understanding LLMNR and NetBIOS</h3>
+
+<p>Before diving into the specifics of hardening your network environment against certain attack vectors, let’s review the basics of Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS). These protocols play fundamental roles in network communications, especially in Windows environments, but they also open doors for neat security vulnerabilities.</p>
+
+<h4 id="link-local-multicast-name-resolution-llmnr">Link-Local Multicast Name Resolution (LLMNR)</h4>
+
+<p>LLMNR is a protocol defined in RFC 4795 that enables devices on a local network to perform name resolution for other hosts when DNS (Domain Name System) fails to resolve the names. LLMNR is multicast over a local network, meaning it doesn’t rely on a centralized server to resolve names. Instead, it broadcasts a query for a hostname to the entire network, and the device with the matching name responds with its IP address. Well, not just THE device with that name, and ANY device can respond, and therein lies the problem.</p>
+
+<p><strong>How LLMNR Works:</strong></p>
+
+<ol>
+  <li><strong>Query Broadcast</strong>: When a device needs to resolve a hostname to an IP address, it first attempts to use DNS. If DNS fails (e.g., the DNS server can’t resolve the hostname or is unreachable), the device then broadcasts an LLMNR query over the network.</li>
+  <li><strong>Response from Host</strong>: Any device on the network with the requested hostname responds directly to the querying device with its IP address.</li>
+  <li><strong>Fallback Mechanism</strong>: LLMNR acts as a fallback mechanism when DNS resolution fails, ensuring that local network name resolution can still occur without centralized DNS services.</li>
+</ol>
+
+<h4 id="netbios-name-service-nbt-ns">NetBIOS Name Service (NBT-NS)</h4>
+
+<p>NetBIOS Name Service is part of the older NetBIOS over TCP/IP suite, enabling computers on a local network to communicate with each other using a simple name, rather than an IP address. NBT-NS functions similarly to LLMNR, in that it provides name resolution services on a local network, but it predates LLMNR and is based on the older NetBIOS protocol. NBT-NS was pre-Vista, LLMNR was post-Vista.</p>
+
+<p><strong>How NetBIOS Name Service Works:</strong></p>
+
+<ol>
+  <li><strong>Name Registration</strong>: When a device joins the network, it registers its NetBIOS name with the NBT-NS, making its presence and services known to other devices on the local network.</li>
+  <li><strong>Name Query</strong>: To communicate with another device, a device sends out a NetBIOS name query request. If the target device’s name is registered, the NBT-NS responds with the IP address of the target device.</li>
+  <li><strong>Direct Communication</strong>: With the IP address resolved, the querying device can directly communicate with the target device using its NetBIOS name.</li>
+</ol>
+
+<h3 id="the-fun">The Fun</h3>
+<p>While LLMNR and NBT-NS provide convenient name resolution services on local networks, especially in environments where DNS configuration is minimal or non-existent, they also present significant security vulnerabilities. The primary risk comes from the fact that any device on the network can respond to LLMNR or NBT-NS queries, letting them impersonate another device. Attackers can take advantage of this by using tools like Responder to intercept queries and respond with their own location. This technique is particularly effective in man-in-the-middle (MITM) attacks, where the attacker positions themselves between the querying device and the legitimate responder.</p>
+
+<p>By default, Responder will answer all LLMNR and NBT-NS queries, setting it’s own IP address as the resolved name. This entices all systems to connect to the attacker’s system, which then presents a slew of ‘fake’ services (think HTTP, LDAP, MSSQL) that present authentication. Domain-joined Windows systems will send the NetNTLM hash of the currently logged-on user, which Responder happily captures and saves.</p>
+
+<p>Typically, all this happens silently in the background. On a populated network with a hundred users, it can result in several NetNTLM hashes every minute. Attackers can take the hashes offline to crack or use something like <a href="https://github.com/fortra/impacket/blob/master/examples/ntlmrelayx.py">ntlmrelayx</a> to relay those authentication attempts to other systems.</p>
+
+<h3 id="how-do-i-disable-llmnr-and-netbios-name-service">How do I Disable LLMNR and NetBIOS Name Service?</h3>
+
+<p>Thankfully, disabling these protocols is easy. Of course, there’s a few caveats:</p>
+
+<ul>
+  <li>
+    <p>Make sure your DNS is configured properly. You are disabling a DNS failsafe, so requests and responses that rely on broadcast name resolution will fail.</p>
+  </li>
+  <li>
+    <p>Just pushing a GPO might not fix them all. Consider workgroup systems, vendor boxes, and non-Windows hosts that use their own broadcast name resolution.</p>
+  </li>
+</ul>
+
+<h3 id="disabling-llmnr">Disabling LLMNR</h3>
+
+<ol>
+  <li>
+    <p><strong>Group Policy Editor</strong>: Open the Group Policy Editor by typing <code class="language-plaintext highlighter-rouge">gpedit.msc</code> in the run dialog. Navigate to <code class="language-plaintext highlighter-rouge">Computer Configuration -&gt; Administrative Templates -&gt; Network -&gt; DNS Client</code>. Find the setting <code class="language-plaintext highlighter-rouge">Turn OFF Multicast Name Resolution</code> and set it to <code class="language-plaintext highlighter-rouge">Enabled</code>. This change will prevent Windows from using LLMNR for name resolution.</p>
+  </li>
+  <li>
+    <p><strong>Registry</strong>: Alternatively, you can disable LLMNR through the registry. Open <code class="language-plaintext highlighter-rouge">regedit</code>, and navigate to <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient</code>. Create a DWORD value named <code class="language-plaintext highlighter-rouge">EnableMulticast</code> and set it to <code class="language-plaintext highlighter-rouge">0</code>.</p>
+  </li>
+</ol>
+
+<h3 id="disabling-netbios-name-service">Disabling NetBIOS Name Service</h3>
+
+<ol>
+  <li>
+    <p><strong>Network Adapter Settings</strong>: Open <code class="language-plaintext highlighter-rouge">Control Panel -&gt; Network and Sharing Center -&gt; Change adapter settings</code>. Right-click on your network connection, select <code class="language-plaintext highlighter-rouge">Properties</code>, then <code class="language-plaintext highlighter-rouge">Internet Protocol Version 4 (TCP/IPv4)</code>, and click <code class="language-plaintext highlighter-rouge">Properties</code>. Click <code class="language-plaintext highlighter-rouge">Advanced</code>, navigate to the <code class="language-plaintext highlighter-rouge">WINS</code> tab, and select <code class="language-plaintext highlighter-rouge">Disable NetBIOS over TCP/IP</code>.</p>
+  </li>
+  <li>
+    <p><strong>DHCP Server</strong>: If your network uses DHCP, you can disable NetBIOS over TCP/IP for all clients through the DHCP options. Set the DHCP option 001 to <code class="language-plaintext highlighter-rouge">0x2</code>, which tells client computers to disable NetBIOS over TCP/IP.</p>
+  </li>
+</ol>
+
+<h3 id="verification-and-continuous-monitoring">Verification and Continuous Monitoring</h3>
+
+<p>After applying these settings, it’s important to test it. You can grab a Linux VM and run Responder on your local usernework in Analyze mode (<code class="language-plaintext highlighter-rouge">Responder.py -I eth0 -A</code>) and see if you notice any responses. There’s also a C# and PowerShell version called <a href="https://github.com/Kevin-Robertson/Inveigh">Inveigh</a>.</p>
+
+<p>Beyond testing, several open-source tools exist as sort of a Responder Honeypot. They probe for invalid hostnames and watch for a response. If they ever get one, it’s a sign that an attacker may be performing LLMNR or NBT-NS poisoning in your environment. There are many honeypot type tools to use, one is Asker:</p>
+
+<ul>
+  <li><a href="https://github.com/eavalenzuela/asker">https://github.com/eavalenzuela/asker</a></li>
+</ul>
+
+<p>This functionality is even built into some modern-day EDR and XDR security solutions, although not all of them.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Disabling LLMNR and NetBIOS Name Service is a great step towards hardening your internal network environment. Given that it’s such a prolific penetration testing tool, you’d force your testers to work harder by cleaning up some of this low-hanging fruit. We are big fans of making testers work harder, as it increases the value you get through their test. If your tester doesn’t know what Responder is, or isn’t making use of it as part of their methodology, run the other way (<a href="https://strategicdefense.co/services/network/">right into our arms</a>).</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">Strategic Defense Corporation</h2>
+          <ul>
+            
+            
+            <li class="">
+              <a href="/mssp/">MSSP</a>
+            </li>
+            
+            <li class="">
+              <a href="/vc/">VC</a>
+            </li>
+            
+            <li class="">
+              <a href="/contact/">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="mailto:hello@strategicdefense.co " target="blank"><img src="/images/social/email.svg" title="Email" alt="Email" /></a>
+  
+    <a href="http://linkedin.com/company/strategic-defense" target="blank"><img src="/images/social/linkedin.png" title="Linkedin" alt="Linkedin" /></a>
+  
+</div>
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>

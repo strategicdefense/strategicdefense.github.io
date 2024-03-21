@@ -7,15 +7,25 @@ bodyClass: "page-basic"
     .title, .service-single .content h1 {
         font-family: 'Playfair Display', sans-serif;
         font-weight: 700;
-    }
+}
+    .post-image {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+}
+
 </style>
+
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
-		<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+                <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+                {% if page.image %}
+                <img src="{{ page.image }}" alt="{{ page.title }}" class="post-image"/>
+                {% endif %}
                 <div class="content">{{content}}</div>
             </div>
         </div>

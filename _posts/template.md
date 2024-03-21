@@ -1,6 +1,7 @@
 ---
 image: /images/sd_shield.png
 layout: post
+description: The best defense is a good offense.
 title: Goal Based Penetration Testing
 author: Staff
 tags: ["Penetration Testing", "Goats"]
