@@ -2,12 +2,10 @@
 image: /images/illustrations/castle.webp
 description: The best defense is a good offense.
 layout: post
-title: How to Fix LLMNR Poisioning.
+title: How to Fix LLMNR Poisoning.
 author: Staff
 tags: ["penetration testing"]
 ---
-
-### How to fix LLMNR Poisoning 
 
 Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run Responder (https://github.com/lgandx/Responder). It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets [its own special place](https://attack.mitre.org/techniques/T1557/001/) in Mitre. 
 
