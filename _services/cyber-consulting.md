@@ -1,6 +1,7 @@
 ---
 title: "Cyber Consulting"
-date: 2019-03-28T15:14:54+10:00
+layout: page
+date: 2024-03-18
 weight: 3
 description: "The best defense is a good offense."
 image: "images/illustrations/cowboy.webp"

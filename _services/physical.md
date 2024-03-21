@@ -1,12 +1,16 @@
 ---
 title: "Physical Security Testing"
-date: 2019-03-28T15:14:54+10:00
 weight: 10
+date: 2024-03-18 
+layout: page
+description: The best defense is a good offense.
+image: "images/illustrations/lockpick.webp"
 ---
 
 Tailgating, badge-cloning, lock-picking and more - all designed to abuse your building security controls. We go so hard; we have to laminate our Get Out of Jail Free cards. 
 <!--more-->
 
+![hacking door](/images/illustrations/lockpick.webp){: width="600"}
 # Physical Security Testing Methodology 
 
 ## Objective: 

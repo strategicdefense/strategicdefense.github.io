@@ -1,12 +1,16 @@
 ---
 title: "Wireless"
-date: 2019-04-18T12:33:46+10:00
 weight: 3
+date: 2024-03-18 
+layout: page
+description: The best defense is a good offense.
+image: "images/illustrations/wireless.webp"
 ---
 
 Think hidden SSID's and WPA2-Enterprise are going to save you? Our expert wireless testers can crash your party from the far corner of your parking lot.
 <!--more-->
 
+![hacking wireless](/images/illustrations/wireless.webp){: width="600"}
 # Wireless Penetration Testing
 ## Objective:
 Wireless Penetration Tests are intricately designed to evaluate the security posture of an organization's wireless network infrastructure. These tests aim to identify vulnerabilities in wireless protocols, authentication mechanisms, and network segmentation. The critical distinction of these tests lies in their focus on exploiting weaknesses within wireless network configurations and the encryption mechanisms in use, rather than the wired network perimeter defenses.

@@ -14,12 +14,12 @@
   <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
   <link href="/assets/css/style.css" rel="stylesheet">
   
-  
+  <meta name="description" content="The best defense is a good offense." />
   <meta property="og:title" content="Web Application Assessment"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=""/>
-  
-  
+  <meta property="og:image" content="http://localhost:4000/images/illustrations/webapp.webp"/>
+  <meta property="og:description" content="The best defense is a good offense."/>
   <meta name="twitter:card" content="summary"/>
   
   
@@ -36,7 +36,7 @@
 
 </head>
 
-<body class='page page-service'>
+<body class='page page-basic'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
   <ul>
@@ -108,14 +108,23 @@
   </div>
 </div>
 
-    <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="service service-single">
-        <h1 class="title">Web Application Assessment</h1>
-        <div class="content"><p>Application Security Testing. Guided by OWASP, layered with manual testing, designed to find gremlins. 
+    <style>
+    .title, .service-single .content h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+    }
+</style>
+
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">Web Application Assessment</h1>
+                <div class="content"><p>Application Security Testing. Guided by OWASP, layered with manual testing, designed to find gremlins. 
 <!--more--></p>
 
+<p><img src="/images/illustrations/webapp.webp" alt="hacking webapp" width="600" /></p>
 <h1 id="web-application-penetration-testing">Web Application Penetration Testing</h1>
 <h2 id="objective">Objective:</h2>
 <p>Web Application Penetration Testing aims to identify and exploit vulnerabilities within web applications to assess their security posture. This type of testing scrutinizes various components of web applications, including their source code, database management systems, and back-end network connections. The goal is to uncover vulnerabilities that could potentially be exploited by attackers to compromise user data, gain unauthorized access, or perform other malicious activities.</p>
@@ -158,10 +167,11 @@ Authentication and Session Management: Testing the security of user authenticati
 </blockquote>
 
 </div>
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
   </div>
   <div class="footer">
   <div class="container">

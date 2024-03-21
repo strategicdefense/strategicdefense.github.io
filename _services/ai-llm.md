@@ -1,9 +1,10 @@
 ---
 title: "AI/LLM"
-date: 2018-11-18T12:33:46+10:00
+date: 2024-03-18
 weight: 8
 description: The best defense is a good offense.
 image: "images/illustrations/llm-hair.webp"
+layout: page
 ---
 Get a handle on AI/LLM with intergration testing, prompt engineering and Red Teaming for LLM-specific threats. 
 <!--more-->

@@ -2,11 +2,16 @@
 title: "Network Testing"
 date: 2018-11-18T12:33:46+10:00
 weight: 2
+date: 2024-03-18 
+layout: page
+description: The best defense is a good offense.
+image: "/images/illustrations/network.webp"
 ---
 
 [External](#external) testing of your Internet-facing perimeter, or [Internal](#internal) testing to simulate an insider threat or rogue employee. Blend both, or add on [Phishing](/services/phishing) for a well-rounded engagement.
 <!--more-->
 
+![hacking webapp](/images/illustrations/network.webp){: width="600"}
 <!-- TOC --><a name="external"></a>
 # External Penetration Tests 
 ## Objective:

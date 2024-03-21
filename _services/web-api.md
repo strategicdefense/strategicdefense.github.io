@@ -1,7 +1,8 @@
 ---
 title: "API Security Assessment"
-date: 2019-05-18T12:33:46+10:00
 weight: 8
+date: 2024-03-18 
+layout: page
 ---
 
 Comprehensive API security testing, designed for any size endpoint, powered by OWASP Top 10. 

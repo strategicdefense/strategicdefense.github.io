@@ -2,13 +2,18 @@
 title: "Hardware"
 date: 2019-04-18T12:33:46+10:00
 weight: 6
+date: 2024-03-18
+layout: page
+description: The best defense is a good offense.
+image: "images/illustrations/hardware.webp"
 ---
 
 Test your hardware, whether its an IoT thermostat, medical devices, automotive, OT gear, and more.
 <!--more-->
 
-# Hardware Reverse Engineering Security Testing Methodology
+![hacking hardware](/images/illustrations/hardware.webp){: width="600"}
 
+# Hardware Reverse Engineering Security Testing Methodology
 ## Objective:
 Hardware Reverse Engineering Security Testing targets physical devices to identify vulnerabilities that could be exploited to compromise device functionality, extract sensitive information, or gain unauthorized access. This testing is crucial for Operational Technology (OT), Internet of Things (IoT) devices, smart-home devices, and more.
 

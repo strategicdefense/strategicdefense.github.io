@@ -1,12 +1,16 @@
 ---
 title: "Web Application Assessment"
-date: 2019-05-18T12:33:46+10:00
 weight: 1
+date: 2024-03-18 
+layout: page
+description: The best defense is a good offense.
+image: "images/illustrations/webapp.webp"
 ---
 
 Application Security Testing. Guided by OWASP, layered with manual testing, designed to find gremlins. 
 <!--more-->
 
+![hacking webapp](/images/illustrations/webapp.webp){: width="600"}
 # Web Application Penetration Testing
 ## Objective:
 Web Application Penetration Testing aims to identify and exploit vulnerabilities within web applications to assess their security posture. This type of testing scrutinizes various components of web applications, including their source code, database management systems, and back-end network connections. The goal is to uncover vulnerabilities that could potentially be exploited by attackers to compromise user data, gain unauthorized access, or perform other malicious activities.

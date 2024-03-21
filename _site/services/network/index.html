@@ -14,12 +14,12 @@
   <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
   <link href="/assets/css/style.css" rel="stylesheet">
   
-  
+  <meta name="description" content="The best defense is a good offense." />
   <meta property="og:title" content="Network Testing"/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content=""/>
-  
-  
+  <meta property="og:image" content="http://localhost:4000/images/illustrations/network.webp"/>
+  <meta property="og:description" content="The best defense is a good offense."/>
   <meta name="twitter:card" content="summary"/>
   
   
@@ -36,7 +36,7 @@
 
 </head>
 
-<body class='page page-service'>
+<body class='page page-basic'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
   <ul>
@@ -108,16 +108,24 @@
   </div>
 </div>
 
-    <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="service service-single">
-        <h1 class="title">Network Testing</h1>
-        <div class="content"><p><a href="#external">External</a> testing of your Internet-facing perimeter, or <a href="#internal">Internal</a> testing to simulate an insider threat or rogue employee. Blend both, or add on <a href="/services/phishing">Phishing</a> for a well-rounded engagement.
+    <style>
+    .title, .service-single .content h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+    }
+</style>
+
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">Network Testing</h1>
+                <div class="content"><p><a href="#external">External</a> testing of your Internet-facing perimeter, or <a href="#internal">Internal</a> testing to simulate an insider threat or rogue employee. Blend both, or add on <a href="/services/phishing">Phishing</a> for a well-rounded engagement.
 <!--more--></p>
 
-<!-- TOC -->
-<p><a name="external"></a></p>
+<p><img src="/images/illustrations/network.webp" alt="hacking webapp" width="600" />
+<!-- TOC --><a name="external"></a></p>
 <h1 id="external-penetration-tests">External Penetration Tests</h1>
 <h2 id="objective">Objective:</h2>
 <p>External Penetration Tests are designed to evaluate the security posture of an organization’s external network assets, such as websites, web applications, and network interfaces, to identify vulnerabilities that could be exploited by external threats. The aim is to assess the resilience of the organization’s public-facing infrastructure against internet-based attacks, ensuring that security measures are capable of preventing unauthorized access or data compromise.</p>
@@ -172,10 +180,11 @@
 
 <p>When scoping, consider the goals of the engagement. Is it to see if an attacker in a general user environment could work their way to a protected cloud VPC? To a OT factory floor? To systems in a connected office environment across the country? Consider placing systems from those environments into the targets list. Also consider providing a no-strike list of systems that should not be touched during testing (historically sensitive or critical systems).</p>
 </div>
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
   </div>
   <div class="footer">
   <div class="container">
