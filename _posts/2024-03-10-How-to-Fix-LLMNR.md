@@ -1,5 +1,5 @@
 ---
-image: /images/illustrations/wireless.webp
+image: /images/illustrations/castle.webp
 description: The best defense is a good offense.
 layout: post
 title: How to Fix LLMNR Poisioning.
