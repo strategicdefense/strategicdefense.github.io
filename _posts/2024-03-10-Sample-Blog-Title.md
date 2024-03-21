@@ -1,5 +1,5 @@
 ---
-image: /images/sd_shield.png
+image: /images/illustrations/wireless.webp
 description: The best defense is a good offense.
 layout: post
 title: Another Sample Blog Post

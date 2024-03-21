@@ -113,6 +113,11 @@
         font-family: 'Playfair Display', sans-serif;
         font-weight: 700;
     }
+  .card-img-top {
+    width: 100%; /* Adjust this value to whatever suits your design */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    object-fit: cover; /* This property ensures the image covers the area, useful if you also set a fixed height */
+  }
 </style>
 
 
@@ -125,9 +130,13 @@
           
           <div class="col-sm-12 col-md-4 mb-4">
             <div class="card">
-              
-              <img class="card-img-top" src="/images/sd_shield.png" alt="Sample Blog Post 1">
-              
+		
+		<div class="card-img-container">
+  		  <a href="http://localhost:4000/blog/2024-03-11-sample-blog-title">
+    		    <img class="card-img-top" src="/images/sd_shield.png" alt="Sample Blog Post 1">
+  		</a>
+		</div>
+		
               <div class="card-body">
                 <h5 class="card-title">Sample Blog Post 1</h5>
                 <p class="card-text">Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization’s real-world...</p>
@@ -138,9 +147,13 @@
           
           <div class="col-sm-12 col-md-4 mb-4">
             <div class="card">
-              
-              <img class="card-img-top" src="/images/sd_shield.png" alt="Another Sample Blog Post">
-              
+		
+		<div class="card-img-container">
+  		  <a href="http://localhost:4000/blog/2024-03-10-sample-blog-title">
+    		    <img class="card-img-top" src="/images/illustrations/wireless.webp" alt="Another Sample Blog Post">
+  		</a>
+		</div>
+		
               <div class="card-body">
                 <h5 class="card-title">Another Sample Blog Post</h5>
                 <p class="card-text">Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization’s real-world...</p>
@@ -151,9 +164,13 @@
           
           <div class="col-sm-12 col-md-4 mb-4">
             <div class="card">
-              
-              <img class="card-img-top" src="/images/sd_shield.png" alt="Goal Based Penetration Testing">
-              
+		
+		<div class="card-img-container">
+  		  <a href="http://localhost:4000/blog/2024-03-08-goal-based-penetration-testing">
+    		    <img class="card-img-top" src="/images/illustrations/network.webp" alt="Goal Based Penetration Testing">
+  		</a>
+		</div>
+		
               <div class="card-body">
                 <h5 class="card-title">Goal Based Penetration Testing</h5>
                 <p class="card-text">Goal-based penetration testing from Strategic Defense is a blend of offensive security testing that serves to highlight an organization’s real-world...</p>
