@@ -131,13 +131,13 @@
                 
                 <img src="/images/illustrations/castle.webp" alt="How to Fix LLMNR Poisoning." class="post-image"/>
                 
-                <div class="content"><p>Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run Responder (https://github.com/lgandx/Responder). It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets <a href="https://attack.mitre.org/techniques/T1557/001/">its own special place</a> in Mitre.</p>
+                <div class="content"><p>Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run <a href="https://github.com/lgandx/Responder">Responder</a>. It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets <a href="https://attack.mitre.org/techniques/T1557/001/">its own special place</a> in Mitre.</p>
 
 <p>But wait, let’s back up…</p>
 
 <h3 id="understanding-llmnr-and-netbios">Understanding LLMNR and NetBIOS</h3>
 
-<p>Before diving into the specifics of hardening your network environment against certain attack vectors, let’s review the basics of Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS). These protocols play fundamental roles in network communications, especially in Windows environments, but they also open doors for neat security vulnerabilities.</p>
+<p>Before diving into the specifics of hardening your network environment against certain attack vectors, let’s review the basics of Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS) (and don’t forget about <a href="https://f20.be/blog/mdns">mDNS</a>, but that might be for a future post). These protocols play fundamental roles in network communications, especially in Windows environments, but they also open doors for neat security vulnerabilities.</p>
 
 <h4 id="link-local-multicast-name-resolution-llmnr">Link-Local Multicast Name Resolution (LLMNR)</h4>
 

@@ -7,14 +7,14 @@ author: Staff
 tags: ["penetration testing"]
 ---
 
-Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run Responder (https://github.com/lgandx/Responder). It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets [its own special place](https://attack.mitre.org/techniques/T1557/001/) in Mitre. 
+Sign up for an Internal Penetration Test, and one of the first things your tester is going to do is run [Responder](https://github.com/lgandx/Responder). It’s been paydirt for testers since its release over 10 years ago. Even before Responder, there were other ad-hoc tools (even a NBNS Spoofer in Metasploit) attackers could use to get an initial foothold in their target environment.  It even gets [its own special place](https://attack.mitre.org/techniques/T1557/001/) in Mitre. 
 
 But wait, let's back up... 
  
 
 ### Understanding LLMNR and NetBIOS 
 
-Before diving into the specifics of hardening your network environment against certain attack vectors, let’s review the basics of Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS). These protocols play fundamental roles in network communications, especially in Windows environments, but they also open doors for neat security vulnerabilities. 
+Before diving into the specifics of hardening your network environment against certain attack vectors, let’s review the basics of Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS) (and don't forget about [mDNS](https://f20.be/blog/mdns), but that might be for a future post). These protocols play fundamental roles in network communications, especially in Windows environments, but they also open doors for neat security vulnerabilities. 
 
 #### Link-Local Multicast Name Resolution (LLMNR) 
 
