@@ -18,10 +18,13 @@ main:
 footer:
   - name: "Contact"
     url: "/contact/"
-    weight: 3
+    weight: 4
   - name: "VC"
     url: "/vc/"
-    weight: 2
+    weight: 3
   - name: "MSSP"
     url: "/mssp/"
+    weight: 2
+  - name: "Insurers"
+    url: "/insurers/"
     weight: 1
