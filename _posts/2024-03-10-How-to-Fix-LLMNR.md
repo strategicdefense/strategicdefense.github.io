@@ -2,7 +2,7 @@
 image: /images/illustrations/castle.webp
 description: The best defense is a good offense.
 layout: post
-title: How to Fix LLMNR Poisoning.
+title: How to Fix LLMNR Poisoning
 author: Staff
 tags: ["penetration testing"]
 ---
