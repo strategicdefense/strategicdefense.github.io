@@ -38,7 +38,7 @@ Cybersecurity issues can derail even the most promising startups, leading to fin
 
 We are more than just a service provider; we are your partner in securing the future of your investments (and we’re the best at what we do). Our team of experts, and our commitment to excellence, ensure that when you choose us, you're not just conducting a security check—you're investing in peace of mind. 
 
-# Ready to Secure Your Next Investment? 
+## _Ready to Secure Your Next Investment?_ 
 
 [Learn how our premium penetration testing services](/contact) can become a key part of your venture capital firm's due diligence process, helping secure your investments against the evolving threat landscape. 
 
