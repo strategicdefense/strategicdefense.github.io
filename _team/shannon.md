@@ -1,6 +1,6 @@
 ---
 title: "Shannon Garcia"
-date: 2018-11-19T10:47:58+10:00
+date: 2024-03-25
 image: "images/team/shannon.png"
 jobtitle: "Founder"
 linkedinurl: "https://www.linkedin.com/in/shannongarcia"

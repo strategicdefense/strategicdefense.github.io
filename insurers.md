@@ -3,6 +3,7 @@ title:  Sharpen Your Risk Management with Offensive Security Testing
 layout: page
 description: The best defense is a good offense.
 image: "/images/illustrations/insurance.webp"
+date: 2024-03-24
 ---
 
 > ### Roses are red, violets are blue, we find the risks, before they find you.

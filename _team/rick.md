@@ -1,6 +1,6 @@
 ---
 title: "Rick Hein"
-date: 2018-11-19T10:47:58+10:00
+date: 2024-03-25
 image: "images/team/rick.jpg"
 jobtitle: "Founder"
 linkedinurl: "https://www.linkedin.com/in/rick-hein-60162373"

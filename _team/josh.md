@@ -1,6 +1,6 @@
 ---
 title: "Josh Huckaby"
-date: 2018-11-19T10:47:58+10:00
+date: 2024-03-25
 image: "images/team/huck.png"
 jobtitle: "Founder"
 linkedinurl: "https://linkedin.com/in/joshuahuckaby1987"

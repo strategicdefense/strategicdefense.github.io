@@ -3,6 +3,7 @@ title: Get Offensive with your Investments
 layout: page
 description: The best defense is a good offense.
 image: "/images/illustrations/vc.webp"
+date: 2024-03-21
 ---
 ## Elevate Your Investment Strategy with Strategic Defense
 
