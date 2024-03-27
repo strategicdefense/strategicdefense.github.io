@@ -31,7 +31,7 @@ Cue that remediation services company making cash-register noises.
 
 ### More Than Just a Vulnerability Scan
 
-That's where _good_ penetration testing can help. They don't check for the 20,000 things that an engineer could write signatures for. They check for the things they _can't_ write signatures for. Complex application issues, layer 2/broadcast attacks, and things that require user interaction, for example. Beyond that, they don't just stop at identifying the surface vulnerability. They start to carve a path through your infrastructure, leveraging stolen credentials and abusing trust relationships along the way. They find the same killchains that a real-world attacker would, and theats where they show their value. 
+That's where _good_ penetration testing can help. They don't check for the 20,000 things that an engineer could write signatures for. They check for the things they _can't_ write signatures for. Complex application issues, layer 2/broadcast attacks, and things that require user interaction, for example. Beyond that, they don't just stop at identifying the surface vulnerability. They start to carve a path through your infrastructure, leveraging stolen credentials and abusing trust relationships along the way. They find the same killchains that a real-world attacker would, and threats where they show their value. 
 
 ### What About Automation?
 This is key, scanners (or heavily automated BAS-style testing) can only check for the issues they've been programmed to check for. Having worked for more than one large infosec company that rolled their own scanner, I know that engineers trend towards writing vulnerability checks that are easy to develop and scale, with a low margin for false positives (although, ask me about the time the engineer told me their scanner could replace pentesting, and then it started flagging Windows boxes with critical Cisco vulns the next time I ran it :)). Thats great, but what about the other issues? The ones that are a little more difficult to automate, maybe require a human to help them along, and require context about the environment to pull off? Well, those probably don't get checks written for them, and we've found that over thousands of tests, that those are the ones that exist in more environments. 
@@ -62,7 +62,7 @@ How can you tell? I've written thousands of pentest reports over the years (and 
 Of course these tests feel overwhelming. There's no context or sane prioritization. 
 
 ## Getting Strategic
-My legs are getting tired from standing on this soap box, so i'll leave you with this. 
+My legs are getting tired from standing on this soap box, so I'll leave you with this. 
 
 Context and prioritization are important. We find that we can do a pre-engagement threat model with a client, scope up a valuable test, and leave them with a handful of findings that have true critical impact to their environment. They usually end up being the same types of findings that scanners struggle to find, _and_ ones the real bad guys use.
 
