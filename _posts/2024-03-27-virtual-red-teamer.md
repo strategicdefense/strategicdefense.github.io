@@ -1,5 +1,5 @@
 ---
-image: /images/illustrations/castle.webp
+image: /images/illustrations/vred.webp
 description: The best defense is a good offense.
 layout: post
 title: Virtual Red Team
