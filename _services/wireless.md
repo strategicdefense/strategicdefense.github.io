@@ -24,3 +24,8 @@ The methodology encompasses a comprehensive review of the wireless network’s a
 Scoping for wireless penetration testing involves defining the boundaries of the wireless network’s coverage area and identifying all active wireless networks associated with the organization. The scoping process should aim to include a diverse array of wireless environments, such as corporate offices, remote locations, and any third-party operated wireless networks within the organizational ecosystem.
 
 The objectives of the engagement should be clearly outlined, focusing on specific concerns such as the ability of an external attacker to gain unauthorized access to the network, the potential for data interception during wireless communication, and the integrity of the network's device authentication and authorization mechanisms.
+
+---
+# Lets Chat
+If you're interested in pricing or methodology for this service (or any others), fill out the form and we will be in touch!
+{% include contact-form.html %}

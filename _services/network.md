@@ -61,3 +61,8 @@ The scale and duration of an internal penetration test can vary based on the siz
 Testing treats the entire LAN (and all attached systems) as in-scope. For target selection, pick a sampling of critical systems. Consider domain controllers, database servers, systems in varying security zones (cloud environments, DMZs, etc), and supporting infrastructure. 
 
 When scoping, consider the goals of the engagement. Is it to see if an attacker in a general user environment could work their way to a protected cloud VPC? To a OT factory floor? To systems in a connected office environment across the country? Consider placing systems from those environments into the targets list. Also consider providing a no-strike list of systems that should not be touched during testing (historically sensitive or critical systems).
+
+---
+# Lets Chat
+If you're interested in pricing or methodology for this service (or any others), fill out the form and we will be in touch!
+{% include contact-form.html %}

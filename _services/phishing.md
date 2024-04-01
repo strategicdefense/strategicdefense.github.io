@@ -41,3 +41,8 @@ Scoping for phishing simulation testing involves determining the breadth of the 
 The scale and duration of a phishing simulation test can vary based on the size of the organization, the number of employees targeted, and the desired depth of the exercise. Engagements can range from single, targeted campaigns to comprehensive testing that spans several months and includes multiple phishing scenarios.
 
 > Note: Customization is key in phishing simulation testing to ensure the scenarios are relevant and reflective of the threats the organization is most likely to face, thereby maximizing the educational value of the exercise.
+
+---
+# Lets Chat
+If you're interested in pricing or methodology for this service (or any others), fill out the form and we will be in touch!
+{% include contact-form.html %}

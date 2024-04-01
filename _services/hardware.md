@@ -41,3 +41,8 @@ Scoping for hardware reverse engineering security testing involves defining the 
 The scale and duration of a hardware reverse engineering security testing engagement can vary based on the complexity of the devices, the number of devices to be tested, and the depth of the analysis required. Engagements can range from focused assessments of individual components to comprehensive evaluations of complex systems with multiple interconnected devices.
 
 > Note: Custom scoping is often necessary for hardware reverse engineering security testing to ensure that the testing approach is tailored to the specific characteristics and security requirements of the devices, effectively addressing the potential risks and vulnerabilities inherent in OT, IoT, and smart home technologies.
+
+---
+# Lets Chat
+If you're interested in pricing or methodology for this service (or any others), fill out the form and we will be in touch!
+{% include contact-form.html %}
