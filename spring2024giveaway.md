@@ -5,7 +5,25 @@ description: The best defense is a good offense.
 image: "/images/sd_shield.png"
 sitemap: false
 ---
-## You are here.
 
+🔒 **Win a 1-Hour Cyber Security Review!** 🔒 
 
+Are you ready to elevate your cybersecurity game, but have more luck than cash? Enter our giveaway for a chance to win a one-on-one, hour-long information security review with one of our technical founders! Whether you're just starting to navigate the complex world of cybersecurity or looking to fine-tune your existing operations, this is your golden ticket. 
 
+Strategic Defense will guide you through review tailored to your specific needs. Here’s a sneak peek of what you could explore together: 
+
+- **Application Security Programs:** Learn how to build or enhance secure applications right from the drawing board. 
+- **Penetration Testing:** Discover vulnerabilities before the attackers do, with insights into the latest testing methodologies. 
+- **Policy Review:** Ensure your policies aren’t just documents, but active shields against potential threats. 
+- **Ransomware Readiness:** Prepare your defenses against one of the digital world’s most dreaded attacks. 
+- ...and much more! 
+
+Don’t miss this opportunity to bolster your defenses, streamline your security operations, and gain invaluable insights from a seasoned professional. This isn't just a consultation; it's a transformational experience for you and your organization's security posture. 
+
+**How to Enter:** 
+
+Just [click here](https://forms.office.com/r/hZ2aHAh0s6) to fill out a brief entry form. No purchase necessary, just a few minutes of your time could unlock unparalleled security insights. 
+
+**Hurry, entries close soon!** Winners will be announced and contacted directly to schedule their session. 
+
+Seize this chance to not just learn, but to revolutionize the way you think about and handle information security. Good luck! 
