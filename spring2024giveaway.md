@@ -26,4 +26,3 @@ Just [click here](https://forms.office.com/r/hZ2aHAh0s6) to fill out a brief ent
 
 **Hurry, entries close soon!** Winners will be announced and contacted directly to schedule their session. 
 
-Seize this chance to not just learn, but to revolutionize the way you think about and handle information security. Good luck! 
