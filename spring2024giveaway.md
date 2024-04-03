@@ -1,7 +1,7 @@
 ---
 title: Enter To Win!
 layout: page
-description: The best defense is a good offense.
+description: Enter to Win a 1-Hour Cyber Security Review
 image: "/images/sd_shield.png"
 sitemap: false
 ---
