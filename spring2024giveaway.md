@@ -22,7 +22,9 @@ Don’t miss this opportunity to bolster your defenses, streamline your security
 
 **How to Enter:** 
 
-Just [click here](https://forms.office.com/r/hZ2aHAh0s6) to fill out a brief entry form. No purchase necessary, just a few minutes of your time could unlock unparalleled security insights. 
+Just fill out the entry form below. No purchase necessary, just a few minutes of your time could unlock unparalleled security insights. 
 
 **Hurry, entries close soon!** Winners will be announced and contacted directly to schedule their session. 
 
+---
+{% include giveaway-form.html %}
