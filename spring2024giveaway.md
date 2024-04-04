@@ -28,5 +28,8 @@ Just fill out the entry form below. No purchase necessary, just a few minutes of
 
 **Hurry, entries close soon!** Winners will be announced and contacted directly to schedule their session. 
 
----
+
 {% include giveaway-form.html %}
+
+---
+_P.S. If you sign up, you agree to let us try and sell you stuff._
