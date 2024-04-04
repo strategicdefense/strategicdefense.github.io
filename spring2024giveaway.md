@@ -18,6 +18,8 @@ Strategic Defense will guide you through a review tailored to your specific need
 - **Ransomware Readiness:** Prepare your defenses against one of the digital world’s most dreaded attacks. 
 - ...and much more! 
 
+Not your cup of tea? Opt for a free penetration test instead! Using our [Network Penetration Testing Methodology](/services/network), our experts will review your perimeter (up to 10 total assets) for misconfigurations, flaws, and vulnerabilities.  
+
 Don’t miss this opportunity to bolster your defenses, streamline your security operations, and gain invaluable insights from a seasoned professional. This isn't just a consultation; it's a transformational experience for you and your organization's security posture. 
 
 **How to Enter:** 
