@@ -190,11 +190,13 @@ END <br /></p>
 <p>For the purposes of this discussion let’s say the user is asking for a query against one table named ABC with a total of 5 columns (named 1 through 5) and the column they selected is columns 2 and 4 where column 5 = foo
 The pseudocode looks something like this - keep in mind this is pseudocode and meant to be an example, don’t expect it to compile or work:</p>
 
+<p>userColumnSelections will be where we store the user choices based on their inputs</p>
+
 <blockquote>
   <p>userColumnSelections = [] #blank array</p>
 </blockquote>
 
-<p>Intitialize the query you are building. This could be a case statement based on user input to create any type of CRUD</p>
+<p>Initialize the query you are building. This could be a case statement based on user input to create any type of CRUD</p>
 
 <blockquote>
   <p>string userQuery = “SELECT “</p>
@@ -206,25 +208,25 @@ The pseudocode looks something like this - keep in mind this is pseudocode and m
   <p>for column in userColumns  <br />
      case <br />
          column == 1 <br />
-                  <em>#User Wants column 1, so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                  <em>#User Wants column 1, so add it to our array of their choices</em> <br />
                  			userColumnSelections.add(“column1”) <br />
          		column == 2  <br />
-                  <em>#User Wants column 2,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                  <em>#User Wants column 2,  so add it to our array of their choices</em> <br />
                  	userColumnSelections.add(“column2”) <br />
          	column == 3  <br />
-                  <em>#User Wants column 3,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                  <em>#User Wants column 3,  so add it to our array of their choices</em> <br />
                  	userColumnSelections.add(“column3”) <br />
          ;		column == 4 <br />
-                  <em>#User Wants column 4,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                  <em>#User Wants column 4,  so add it to our array of their choices</em> <br />
                  	userColumnSelections.add(“column4”) <br />
          		column == 5 	<br />
-                  <em>#User Wants column 5,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                  <em>#User Wants column 5,  so add it to our array of their choices</em> <br />
                  	userColumnSelections.add(“column5”) <br />
     	end case <br />
 end for <br /></p>
 </blockquote>
 
-<p>At this point the userColumnSelections array should hold [“column2”, “column4”]</p>
+<p>At this point the userColumnSelections array should hold [“column2”, “column4”] - we have abstracted their choices into values that we as the developer control directly.</p>
 
 <blockquote>
   <p>userQuery += join(“,” userColumnSelections) 	<em># Basically concatenate the two columns with a , between them</em> <br /></p>
