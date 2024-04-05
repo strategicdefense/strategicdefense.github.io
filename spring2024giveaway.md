@@ -12,7 +12,7 @@ Are you ready to elevate your cybersecurity game, but have more luck than cash? 
 
 Strategic Defense will deliver a mini version of one of our main services. This could be: 
 
-- **Vishing:** Is your helpdesk more secure than a vegas casino? Have one of our expert social engineer artists call up to 5 targets and attempt to convince them to circumvent policy. Will they forget their training and disclose sensitive information?
+- **Vishing:** Is your helpdesk more secure than a [vegas casino](https://www.vox.com/technology/2023/9/15/23875113/mgm-hack-casino-vishing-cybersecurity-ransomware)? Have one of our expert social engineer artists call up to 5 targets and attempt to convince them to circumvent policy. Will they forget their training and disclose sensitive information?
 - **External Penetration Testing:** Using our [goal-based methodology](/services/network), our experts will review your perimeter (up to 5 systems) for misconfigurations, flaws, and vulnerabilities.   
 
 Not your cup of tea? Opt for a 1-on-1 discussion with one of our technical founders, to cover anything from ransomware readiness to application security programs. Get insight, tips, and value from our thousands of hours delivering penetration tests and compromising the biggest companies on the planet. 
