@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SQLi Why??????</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta name="description" content="The best defense is a good offense." />
+  <meta property="og:title" content="SQLi Why??????"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  <meta property="og:image" content="http://localhost:4000/images/illustrations/sqli.webp"/>
+  <meta property="og:description" content="The best defense is a good offense."/>
+  <meta name="twitter:card" content="summary"/>
+  
+  
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KGPP8L3M5W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KGPP8L3M5W');
+</script>
+
+</head>
+
+<body class='page page-basic'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Services</a>
+    </li>
+    
+    <li class="">
+      <a href="/blog/">Blog</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="200px" height="32px" alt="Strategic Defense Corporation" src="/images/logo/logo-color-nobg.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="32px" height="32px" alt="Strategic Defense Corporation" src="/images/favicon-big.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/services/">Services</a>
+    </li>
+    
+    <li class="">
+      <a href="/blog/">Blog</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <style>
+    .title, .service-single .content h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+}
+    .post-image {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+}
+
+</style>
+
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">SQLi Why??????</h1>
+                <p>05 Apr 2024 - Staff</p>
+                
+                <img src="/images/illustrations/sqli.webp" alt="SQLi Why??????" class="post-image"/>
+                
+                <div class="content"><p>As I was doing chores around the place today (thatching the lawn.. ugh). I saw a post about a new CVE in WordPress. It’s an SQLi…. As a former dev, let me say this: THERE IS NO EXCUSE FOR SQLi. NONE. ZERO. NADA.</p>
+
+<p>I also saw the fix mentioning sanitizing the data… UGH. NO, Just NO. Now to be fair, I haven’t delved into the WordPress code, but it seems odd to me that not sanitizing the input caused the query to not be parametrized. 
+I do want to point out that parameterized queries <ins>are the only sure fire way to prevent SQLi</ins>… Should you sanitize your data? Most certainly, but don’t depend on it preventing SQLi. Stored procedures are NOT a substitute either, as they can be vulnerable to SQLi as well.</p>
+
+<p>Wait, what? Stored procedures can be vulnerable to SQLi??? HOW?</p>
+
+<p>Remember:  <ins>SQL commands are at their heart, just strings….</ins> In fact you can write SQL statements to create and run other SQL statements, but I digress.</p>
+
+<p>Consider this stored procedure:</p>
+
+<blockquote>
+  <p>CREATE PROCEDURE GetUserData <br />
+    @Username NVARCHAR(50) <br />
+    AS <br />
+    BEGIN <br />
+     	     DECLARE @SQLQuery NVARCHAR(MAX) <br />
+<br />
+     	    – Constructing the SQL query using string concatenation (<em>vulnerable to SQL injection</em>) <br />
+     	   SET @SQLQuery = ‘SELECT * FROM Users WHERE Username = ‘’’ + @Username + ‘’’’ <br />
+<br />
+     	 – Executing the dynamic SQL query <br />
+     	  EXEC sp_executesql @SQLQuery <br />
+END <br /></p>
+</blockquote>
+
+<p>This creates a stored procedure which takes a user input, concatenates it into a string, then executes it. Classic SQLi</p>
+
+<p>Instead write it this way:</p>
+
+<blockquote>
+  <p>CREATE PROCEDURE GetUserData <br />
+   @Username NVARCHAR(50) <br />
+AS <br />
+BEGIN <br />
+     	   – Using parameterized query to prevent SQL injection <br />
+     	SELECT * <br />
+     	FROM Users <br />
+     	WHERE Username = @Username; <br />
+END <br /></p>
+</blockquote>
+
+<p>As you can see the same query is run, but the system knows that the input is a NVARCHAR(50) and treats it as such. Instead of treating the input like a string.  In all honesty the second stored procedure is easier to read and understand as well, which makes maintenance much easier - remember, YOU might be the person who as to come behind and fix a bug in a year… Make life easier for FUTURE YOU!</p>
+
+<p>Ok, now that we have the example of stored procedures being SQLi vulnerable if written incorrectly out of the way, how about the situation where you as the developer don’t know all the items that can be selected by the end user until runtime?</p>
+
+<p>Well if you think about it, you DO know ALL the parameters that CAN be selected. The user can select any table or column in your database. So using that knowledge you can build a query you control based on the user inputs.</p>
+
+<p>For the purposes of this discussion let’s say the user is asking for a query against one table named ABC with a total of 5 columns (named 1 through 5) and the column they selected is columns 2 and 4 where column 5 = foo
+The pseudocode looks something like this - keep in mind this is pseudocode and meant to be an example, don’t expect it to compile or work:</p>
+
+<blockquote>
+  <p>userColumnSelections = [] #blank array</p>
+</blockquote>
+
+<p>Intitialize the query you are building. This could be a case statement based on user input to create any type of CRUD</p>
+
+<blockquote>
+  <p>string userQuery = “SELECT “</p>
+</blockquote>
+
+<p>userColumns is an array of what the user selected</p>
+
+<blockquote>
+  <p>for column in userColumns  <br />
+     case <br />
+         column == 1 <br />
+                  <em>#User Wants column 1, so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                 			userColumnSelections.add(“column1”) <br />
+         		column == 2  <br />
+                  <em>#User Wants column 2,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                 	userColumnSelections.add(“column2”) <br />
+         	column == 3  <br />
+                  <em>#User Wants column 3,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                 	userColumnSelections.add(“column3”) <br />
+         ;		column == 4 <br />
+                  <em>#User Wants column 4,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                 	userColumnSelections.add(“column4”) <br />
+         		column == 5 	<br />
+                  <em>#User Wants column 5,  so add it to our array of their choices abstracting their choice to something we control</em> <br />
+                 	userColumnSelections.add(“column5”) <br />
+    	end case <br />
+end for <br /></p>
+</blockquote>
+
+<p>At this point the userColumnSelections array should hold [“column2”, “column4”]</p>
+
+<blockquote>
+  <p>userQuery += join(“,” userColumnSelections) 	<em># Basically concatenate the two columns with a , between them</em> <br /></p>
+</blockquote>
+
+<p>At this point the userQuery string  is “SELECT column2, column4”</p>
+
+<blockquote>
+  <p>userQuery += “ FROM TABLE ABC WHERE “   <em>#NOTE: if they selected other tables I could use logic to build up  the JOINS, etc just like I did above. In this example we are only letting them select from table ABC</em> <br />
+case <br />
+    	userWhereInput = 1 <br />
+    	     	userQuery += “Column1 = @value” <br />
+    	 	userWhereInput = 2 <br />
+    	     	userQuery += “Column2 = @value” <br />
+    	userWhereInput = 3 <br />
+    	     	userQuery += “Column2 = @value” <br />
+    	userWhereInput = 4 <br />
+    	     	userQuery += “Column4 = @value” <br />
+    	userWhereInput = 5 <br />
+    	     	userQuery += “Column5 = @value” <br />
+end case <br /></p>
+</blockquote>
+
+<p>At this point the userQuery string  reads “SELECT column2, column4 FROM ABC WHERE Column5 = @value” - @value is a placeholder!</p>
+
+<blockquote>
+  <p>NVARCHAR(50) @value = userSearchValue <em>#userSearchValue = “Foo” in this example. The NVARCHAR is declaring the SQL datatype - real code syntax will vary depending upon the language.</em> <br />
+Exec userQuery <br /></p>
+</blockquote>
+
+<p>The SQL engine will take the userSearchValue, smash it into the query and run it. <ins>But it will smash it in as the data type specified. </ins></p>
+
+<p>The difference here is, I made <ins>CHOICES</ins> based on user input to generate the query, but I <ins>DID NOT use the values directly in the query</ins>.</p>
+
+<p>Yes it can be a pain for very large tables/column sets, etc, and yes there is tooling that can help with this, but understanding how to do it manually means you have a better understanding of what happens under the covers.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">Strategic Defense Corporation</h2>
+          <ul>
+            
+            
+            <li class="">
+              <a href="/insurers/">Insurers</a>
+            </li>
+            
+            <li class="">
+              <a href="/mssp/">MSSP</a>
+            </li>
+            
+            <li class="">
+              <a href="/vc/">VC</a>
+            </li>
+            
+            <li class="">
+              <a href="/contact/">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="mailto:hello@strategicdefense.co " target="blank"><img src="/images/social/email.svg" title="Email" alt="Email" /></a>
+  
+    <a href="http://linkedin.com/company/strategic-defense" target="blank"><img src="/images/social/linkedin.png" title="Linkedin" alt="Linkedin" /></a>
+  
+</div>
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
