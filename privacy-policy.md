@@ -6,6 +6,7 @@ image: "/images/sd_shield.png"
 date: 2024-04-19
 sitemap: true
 ---
+** Effective Date: 4/19/2024 **
 
 **1. Introduction**
 
