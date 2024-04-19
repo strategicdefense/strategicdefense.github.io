@@ -7,10 +7,6 @@ date: 2024-04-19
 sitemap: true
 ---
 
-**Privacy Policy**
-
-**Effective Date: 4/19/2024**
-
 **1. Introduction**
 
 Welcome to Strategic Defense Corporation. We are committed to respecting your privacy. While our website primarily serves to provide information, we use Google Analytics to understand how our website is used. This privacy policy outlines our practices concerning the use of Google Analytics and explains that we do not collect personal information directly from visitors.
