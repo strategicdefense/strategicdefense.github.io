@@ -105,9 +105,6 @@
 <loc>http://localhost:4000/team/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/terms/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/vc/</loc>
 </url>
 </urlset>

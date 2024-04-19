@@ -4,6 +4,7 @@ layout: page
 description: Strategic Defense Corporation Master Terms and Conditions Agreement
 image: "/images/sd_shield.png"
 date: 2024-04-19
+sitemap: false
 ---
 
 This Strategic Defense Corporation Master Terms and Conditions Agreement
