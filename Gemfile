@@ -6,3 +6,4 @@ gem "jekyll-environment-variables"
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jemoji'
+gem 'jekyll-google-tag-manager'

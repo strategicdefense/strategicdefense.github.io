@@ -48,6 +48,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
+  - jekyll-google-tag-manager
 
 exclude:
   - Gemfile
@@ -60,3 +61,7 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+google:
+  tag_manager:
+    container_id: GTM-PLJ3SFBW
