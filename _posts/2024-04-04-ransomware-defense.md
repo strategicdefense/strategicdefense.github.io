@@ -23,6 +23,8 @@ Yep. Because time and time again, we’ve seen nasty ransomware cases where basi
 
 > Never in our entire careers, delivering thousands of penetration tests and assisting with hundreds of IR investigations, did we come across a ransomware initial entry point that wouldn't have surfaced on a quality, well-scoped penetration test.
 
+We've even gone so far as to [make a service out of it.](/services/ransomware/)
+
 ### Key Components of Proactive Penetration Testing:
 
 - **Real-World Attack Simulation:** Emulate the behavior of ransomware attackers to identify how they could infiltrate your network and encrypt your data.

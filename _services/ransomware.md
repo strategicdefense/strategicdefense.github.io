@@ -1,0 +1,54 @@
+---
+title: "Ransomware Drill"
+date: 2024-04-23
+weight: 8
+description: The best defense is a good offense.
+image: "images/illustrations/ransomware.webp"
+layout: page
+---
+The thought of ransomware keeping you up at night? Get down to facts with our Ransomware Drill - designed to assess how well your network (and people) would hold up to a real-world ransomware attack. 
+
+<!--more-->
+
+![ransomware](/images/illustrations/ransomware.webp){: width="600"}
+
+# Ransomware Drill
+We’ve helped respond to hundreds of incidents involving ransomware. ([so we've got thoughts on it](/blog/2024-04-04-ransomware-defense)).  In the vast majority of those cases, we found ourselves thinking “our testing would have caught this”. So, we made a service to do just that. 
+
+## Objective:
+A Ransomware Drill is a proactive service to gauge how well your systems and defenders would do against real-world, skilled ransomware attackers. It identifies vulnerabilities and potential security risks within your ecosystem that ransomware threat actors regularly take advantage of. Think of it as a themed Internal Penetration Test, tuned to work towards the same goals that ransomware threat actors have. 
+
+## Scope and Methodology:
+Large parts of the methodology from our [Internal Penetration Test](/services/network) were taken, tweaked to better align with the goals and objectives of real-world ransomware attackers, and boxed up into the world-class testing and reporting that Strategic Defense consultants are known for. 
+
+The testing setup for a Ransomware Drill starts internally. We assume that threat actors gained access to your internal network environment. There’s a million ways this can happen; phishing, exploiting an exposed system on your perimeter, malware on a BYOD, vendor / supply chain compromise, etc. We send over a remote access system (or can use yours), which gives us internal network access to your network. 
+
+Then, using a blend of our goal-based penetration methodology and real-world ransomware Techniques, Tactics, and Procedures (TTPs), testers work to:
+
+- Find and compromise critical backup infrastructure.
+- Compromise as many systems as possible, with the highest privileges possible.
+
+These are the main 2 goals of any ransomware attacker. Disable and disrupt backups, and gain code execution on as many systems as possible, which of course is the precursor for detonating ransomware. 
+
+> Of course, if you want to explore the entire attack chain, we can add phishing and/or external perimeter testing to our Ransomware Drill, but we find that starting with just internal testing hits the sweet spot in value. (If you tell us that you don’t regularly perform external testing and vulnerability management, we might change our minds.)
+
+
+## Features:
+
+- **Internal Based:** We start from inside your network, assume the perimeter has been compromised, and get to work. We typically like to start in a general user network, since that’s where ransomware groups typically end up after a perimeter breach via methods like password spraying RDP, or phishing.
+
+- **Real World TTPs:** We focus on the same things we see pop up in ransomware investigation reports. Hash capturing and cracking, tricky Active Directory attacks, trust relationship abuse, post exploitation and lateral movement. Typically the goal for ransomware is Domain Admin rights, so that’s what we are after as well (as quickly as we can, and as many times as we can).
+
+- **Stuff that Matters:** As with all of our reports, there’s zero fluff. You’ll get nutrient-dense findings that were actually exploited to take over your entire environment, not theoretical examples we’ve never seen come to fruition (looking at you, every single scan vendor). 
+
+- **Detection and Eviction:** Finding and exploiting flaws is only half the battle. You want to detect the bad actors' activity, and work on evicting them. We can play that same game of cat-and-mouse. Did your team detect all our Monday activity on Monday? Or did no lights blink on your XDR until three Friday’s later? Could they zero in on the first user account we compromised? What would they do to kick us out?
+
+
+## Engagement Scale and Duration:
+Of course we’d love to spend 6 months in your environment, but we find that the best balance of value and time for Ransomware Drills is a single work week. This gives our testers enough time to find all the critical ways to gain elevated rights in your environment, without draining your testing budget.
+
+
+---
+# Lets Chat
+If you're interested in pricing or methodology for this service (or any others), fill out the form and we will be in touch!
+{% include contact-form.html %}
