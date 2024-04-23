@@ -535,8 +535,8 @@ DEFINITIONS
         of, not limited to, the obligation to:
 
         1.  ensure that it has all necessary notices and consents in
-            place to enable transfer of the Personal Information to be
-            shared between the Parties under this Agreement;
+            place to enable lawful transfer of the Personal Information
+            to be shared between the Parties under this Agreement;
 
         2.  process the Personal Information only for purposes of this
             Agreement;
@@ -661,8 +661,7 @@ DEFINITIONS
         jurisdiction.
 
     11. Governing Law. This Agreement will be governed by and construed
-        in accordance with the legislations of Delegislationare, without
-        applying conflict of legislation principles.
+        in accordance with the legislations of Wyoming.
 
     12. Dispute Resolution. “Dispute” means any conflict or controversy
         arising out of or relating to any interpretation, construction,
@@ -848,14 +847,14 @@ DEFINITIONS
             Dispute under Section 11.12.1 and a final decision is not
             reached or available under Section 11.12.2, or, if for any
             reason a Dispute must proceed in court as a legislation
-            suit: each Participant irrevocably agrees that the courts of
-            England and Wales will have sole jurisdiction to settle any
-            Dispute (inclusive of noncontractual Disputes) arising out
-            of or in connection with this Agreement or its subject
-            matter or formation. Notwithstanding any provision in this
-            Agreement, no Participant will bring any claim, demand,
-            action, legislation suit, or arbitration process based on
-            this Agreement if either (i) the applicable statute of
+            suit: each Participant irrevocably agrees that the court of
+            Wyoming will have sole jurisdiction to settle any Dispute
+            (inclusive of noncontractual Disputes) arising out of or in
+            connection with this Agreement or its subject matter or
+            formation. Notwithstanding any provision in this Agreement,
+            no Participant will bring any claim, demand, action,
+            legislation suit, or arbitration process based on this
+            Agreement if either (i) the applicable statute of
             limitations has expired, or (ii) eighteen (18) months has
             elapsed after the date the Participant discovered or
             reasonably should have discovered (inclusive of constructive
