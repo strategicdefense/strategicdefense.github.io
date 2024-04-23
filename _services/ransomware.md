@@ -47,6 +47,8 @@ These are the main 2 goals of any ransomware attacker. Disable and disrupt backu
 ## Engagement Scale and Duration:
 Of course we’d love to spend 6 months in your environment, but we find that the best balance of value and time for Ransomware Drills is a single work week. This gives our testers enough time to find all the critical ways to gain elevated rights in your environment, without draining your testing budget.
 
+> Note: This test is designed with minimal system impact in mind. No real ransomware is used during this engagement. Testing is focused on the TTP's used by real-world ransomware threat actors, how they would apply to your network, and how well your team of defenders can detect and evict.
+
 
 ---
 # Lets Chat
