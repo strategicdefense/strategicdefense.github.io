@@ -1,12 +1,12 @@
 ---
 title: "Ransomware Drill"
 date: 2024-04-23
-weight: 8
+weight: 4
 description: The best defense is a good offense.
 image: "images/illustrations/ransomware.webp"
 layout: page
 ---
-The thought of ransomware keeping you up at night? Get down to facts with our Ransomware Drill - designed to assess how well your network (and people) would hold up to a real-world ransomware attack. 
+The thought of ransomware keeping you up at night? Get down to facts with our Ransomware Drill - designed to test how well your network (and people) would hold up to a real-world ransomware attack. 
 
 <!--more-->
 
