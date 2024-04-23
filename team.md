@@ -10,4 +10,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-More cybersecurity experience than you can shake a stick at.
+More cybersecurity leadership experience than you can shake a stick at.
