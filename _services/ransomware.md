@@ -13,7 +13,7 @@ The thought of ransomware keeping you up at night? Get down to facts with our Ra
 ![ransomware](/images/illustrations/ransomware.webp){: width="600"}
 
 # Ransomware Drill
-We’ve helped respond to hundreds of incidents involving ransomware. ([so we've got thoughts on it](/blog/2024-04-04-ransomware-defense)).  In the vast majority of those cases, we found ourselves thinking “our testing would have caught this”. So, we made a service to do just that. 
+We’ve helped respond to hundreds of incidents involving ransomware ([so we've got thoughts on it](/blog/2024-04-04-ransomware-defense)).  In the vast majority of those cases, we found ourselves thinking “our testing would have caught this”. So, we made a service to do just that. 
 
 ## Objective:
 A Ransomware Drill is a proactive service to gauge how well your systems and defenders would do against real-world, skilled ransomware attackers. It identifies vulnerabilities and potential security risks within your ecosystem that ransomware threat actors regularly take advantage of. Think of it as a themed Internal Penetration Test, tuned to work towards the same goals that ransomware threat actors have. 
