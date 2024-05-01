@@ -1,5 +1,5 @@
 ---
-title: Code of Conduct
+title: Partner Code of Conduct
 layout: page
 description: Strategic Defense Corporation Partner Code of Conduct
 image: "/images/sd_shield.png"
@@ -7,7 +7,6 @@ date: 2024-04-19
 sitemap: false
 ---
 
-**Introduction**
 This Partner Code of Conduct Agreement ("Agreement") outlines the standards and expectations for all partners collaborating with Strategic Defense Corporation ("Company"). The purpose of this Agreement is to ensure that all partners maintain the integrity, reputation, and values of the Company while engaged in any business activities.
 
 **1. Compliance with Laws and Regulations**
