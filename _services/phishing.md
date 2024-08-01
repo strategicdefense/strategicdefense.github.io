@@ -1,18 +1,19 @@
 ---
-title: "Phishing"
+title: "Phishing & Social Engineering"
 date: 2019-03-28T15:14:54+10:00
 weight: 9
 date: 2024-03-18 
 layout: page
 ---
 
-No matter the medium, our baitmasters catch phish. 
+From emails, to voice calls, to deep-fakes; our baitmasters catch phish. 
 <!--more-->
 
 # Phishing Simulation Test
 ## Objective:
 Phishing Simulation Testing is aimed at assessing an organization's susceptibility to phishing attacks. This is a method used by attackers to deceive individuals into disclosing sensitive information or performing dangerous actions that compromise security. This form of testing evaluates both the technical defenses against phishing, such as email filtering systems, and the human aspect of security awareness among employees.
 
+We've also got capabilities for intergrating deep fakes into our social engineering, including one-way and conversational audio, as well as video. 
 ## Scope and Methodology:
 The methodology for phishing simulation testing involves the design, deployment, and analysis of controlled phishing campaigns that mimic the tactics, techniques, and procedures employed by real-world attackers. These simulations are tailored to gauge the response of employees to phishing attempts, identify potential weaknesses in security awareness training, and measure the effectiveness of technical email defenses.
 
